@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=ICM-40627
+PartCategory=Accelerometer
+PackageCategory=Other
+PinCount=14
+Version=5.1
+Released=2022-02-22 13:57:35
+Downloaded=2023-07-06 13:59:00
+3D=Y

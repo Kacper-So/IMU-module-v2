@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=Title Page.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Title Page.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=Top Level Organization.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=Top Level Organization.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Top Level Organization.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=IMU.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=IMU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Top Level Organization.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=nRF.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=nRF.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

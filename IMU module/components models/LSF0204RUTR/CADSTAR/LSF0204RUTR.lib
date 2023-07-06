@@ -1,0 +1,16 @@
+.LSF0204RUTR :1 ;4-Bit Bidirectional Multi-Voltage Level Translator for Open-Drain & Push- Pull 
+RUT_R-PUQFN-N12_
+*STM IC
+*NGS
+*PLB 1="VREF_A" 2="A1" 3="A2" 4="A3" 5="A4" 6="GND" 7="B4" 8="B3" 9="B2" 10="B1" 11="VREF_B" 12="EN"
+*MXP 12
+*DFN LSF0204RUTR
+~!Mouser Part Number (595-LSF0204RUTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LSF0204RUTR?qs=m%2F7bTylgptfw1v7l22jn0g%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LSF0204RUTR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/lsf0204)
+~!Height (-)
+~!3D_Model (LSF0204RUTR)
+LSF0204RUTR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 

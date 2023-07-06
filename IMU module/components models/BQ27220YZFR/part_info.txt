@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=BQ27220YZFR
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=9
+Version=5.1
+Released=2017-01-04 09:47:52
+Downloaded=2023-07-06 12:58:44
+3D=Y

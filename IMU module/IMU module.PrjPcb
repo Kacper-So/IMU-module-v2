@@ -116,129 +116,261 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KQASNFIU
 
+[Document5]
+DocumentPath=Top Level Organization.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TZAPAPCL
+
+[Document6]
+DocumentPath=nRF.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DYUNNAEI
+
+[Document7]
+DocumentPath=IMU.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WVZKSMLU
+
+[Document8]
+DocumentPath=LDO.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NQEYGJCI
+
+[Document9]
+DocumentPath=BMS.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HTANUPYG
+
+[Document10]
+DocumentPath=FUEL GAUGE.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BBQJSYCH
+
+[Document11]
+DocumentPath=MAG.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SRBAYIRX
+
+[Document12]
+DocumentPath=ANT.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ANUOFCJJ
+
 [Parameter1]
-Name=29.Title Schema 23
-Value=Expander GPIO
-
-[Parameter2]
-Name=28.Title Schema 22
-Value=Programming connector
-
-[Parameter3]
-Name=27.Title Schema 21
-Value=Buttons leds controller
-
-[Parameter4]
-Name=26.Title Schema 20
-Value=Button connector
-
-[Parameter5]
-Name=25.Title Schema 19
-Value=On-off controller
-
-[Parameter6]
-Name=24.Title Schema 18
-Value=LED ring connector
-
-[Parameter7]
-Name=23.Title Schema 17
-Value=LED ring voltage level translator
-
-[Parameter8]
-Name=22.Title Schema 16
-Value=Proximity sensor connector
-
-[Parameter9]
-Name=21.Title Schema 15
-Value=IMU and encoder connector
-
-[Parameter10]
-Name=20.Title Schema 14
-Value=FSR
-
-[Parameter11]
-Name=19.Title Schema 13
-Value=Tensometers
-
-[Parameter12]
-Name=18.Title Schema 12
-Value=Force sensors
-
-[Parameter13]
-Name=17.Title Schema 11
-Value=Current measurement
-
-[Parameter14]
-Name=16.Title Schema 10
-Value=Current source
-
-[Parameter15]
-Name=15.Title Schema 9
-Value=Current source
-
-[Parameter16]
-Name=14.Title Schema 8
-Value=Power switch
-
-[Parameter17]
-Name=13.Title Schema 7
-Value=Battery gauge
-
-[Parameter18]
-Name=12.Title Schema 6
-Value=Charger mating pads
-
-[Parameter19]
-Name=11.Title Schema 5
-Value=LDO
-
-[Parameter20]
-Name=10.Title Schema 4
-Value=Step up converter
-
-[Parameter21]
-Name=9.Title Schema 3
-Value=Charger
-
-[Parameter22]
-Name=8.Title Schema 2
-Value=Power
-
-[Parameter23]
-Name=7.Title Schema 1
-Value=ESP32
-
-[Parameter24]
-Name=6.Top Level Organization
-Value=Top Level Organization
-
-[Parameter25]
-Name=5.Description
-Value=IMU module for motion tracking
-
-[Parameter26]
-Name=4a.Checked By
-Value=
-
-[Parameter27]
-Name=4.Drawn By
-Value=KS
-
-[Parameter28]
-Name=3.Project Revision
-Value=A
-
-[Parameter29]
-Name=2.Title Page
-Value=Title Page
-
-[Parameter30]
 Name=1.Project Title
 Value=IMU module
 
-[Parameter31]
-Name=
+[Parameter2]
+Name=2.Title Page
+Value=Title Page
+
+[Parameter3]
+Name=3.Project Revision
+Value=A
+
+[Parameter4]
+Name=4.Drawn By
+Value=KS
+
+[Parameter5]
+Name=4a.Checked By
 Value=
+
+[Parameter6]
+Name=5.Description
+Value=IMU module for motion tracking
+
+[Parameter7]
+Name=6.Top Level Organization
+Value=Top Level Organization
+
+[Parameter8]
+Name=7.Title Schema 1
+Value=ESP32
+
+[Parameter9]
+Name=8.Title Schema 2
+Value=Power
+
+[Parameter10]
+Name=9.Title Schema 3
+Value=Charger
+
+[Parameter11]
+Name=10.Title Schema 4
+Value=Step up converter
+
+[Parameter12]
+Name=11.Title Schema 5
+Value=LDO
+
+[Parameter13]
+Name=12.Title Schema 6
+Value=Charger mating pads
+
+[Parameter14]
+Name=13.Title Schema 7
+Value=Battery gauge
+
+[Parameter15]
+Name=14.Title Schema 8
+Value=Power switch
+
+[Parameter16]
+Name=15.Title Schema 9
+Value=Current source
+
+[Parameter17]
+Name=16.Title Schema 10
+Value=Current source
+
+[Parameter18]
+Name=17.Title Schema 11
+Value=Current measurement
+
+[Parameter19]
+Name=18.Title Schema 12
+Value=Force sensors
+
+[Parameter20]
+Name=19.Title Schema 13
+Value=Tensometers
+
+[Parameter21]
+Name=20.Title Schema 14
+Value=FSR
+
+[Parameter22]
+Name=21.Title Schema 15
+Value=IMU and encoder connector
+
+[Parameter23]
+Name=22.Title Schema 16
+Value=Proximity sensor connector
+
+[Parameter24]
+Name=23.Title Schema 17
+Value=LED ring voltage level translator
+
+[Parameter25]
+Name=24.Title Schema 18
+Value=LED ring connector
+
+[Parameter26]
+Name=25.Title Schema 19
+Value=On-off controller
+
+[Parameter27]
+Name=26.Title Schema 20
+Value=Button connector
+
+[Parameter28]
+Name=27.Title Schema 21
+Value=Buttons leds controller
+
+[Parameter29]
+Name=28.Title Schema 22
+Value=Programming connector
+
+[Parameter30]
+Name=29.Title Schema 23
+Value=Expander GPIO
 
 [Configuration1]
 Name=Sources
@@ -756,96 +888,66 @@ Name=Export Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Ansoft Neutral
-OutputName1=Ansoft Neutral (AutoPCB)
+OutputType1=AutoCAD dwg/dxf PCB
+OutputName1=AutoCAD dwg/dxf File PCB
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=AutoCAD dwg/dxf PCB
-OutputName2=AutoCAD dwg/dxf File PCB
+OutputType2=AutoCAD dwg/dxf Schematic
+OutputName2=AutoCAD dwg/dxf File Schematic
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=AutoCAD dwg/dxf Schematic
-OutputName3=AutoCAD dwg/dxf File Schematic
+OutputType3=ExportIDF
+OutputName3=Export IDF
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=ExportIDF
-OutputName4=Export IDF
+OutputType4=ExportPARASOLID
+OutputName4=Export PARASOLID
 OutputDocumentPath4=
-OutputVariantName4=
+OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=ExportPARASOLID
-OutputName5=Export PARASOLID
+OutputType5=ExportSTEP
+OutputName5=Export STEP
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=ExportSTEP
-OutputName6=Export STEP
+OutputType6=ExportVRML
+OutputName6=Export VRML
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=ExportVRML
-OutputName7=Export VRML
+OutputType7=MBAExportPARASOLID
+OutputName7=Export PARASOLID
 OutputDocumentPath7=
-OutputVariantName7=[No Variations]
+OutputVariantName7=
 OutputDefault7=0
-OutputType8=HyperLynx
-OutputName8=HyperLynx (AutoPCB)
+OutputType8=MBAExportSTEP
+OutputName8=Export STEP
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=MBAExportPARASOLID
-OutputName9=Export PARASOLID
+OutputType9=Save As/Export PCB
+OutputName9=Save As/Export PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=MBAExportSTEP
-OutputName10=Export STEP
+OutputType10=Save As/Export Schematic
+OutputName10=Save As/Export Schematic
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=Orcad v7 Capture Design
-OutputName11=Orcad v7 Capture Design (AutoSCH)
+OutputType11=Specctra Design PCB
+OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=P-CAD ASCII
-OutputName12=P-CAD ASCII (AutoPCB)
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=P-CAD V16 Schematic Design
-OutputName13=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Save As/Export PCB
-OutputName14=Save As/Export PCB
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Save As/Export Schematic
-OutputName15=Save As/Export Schematic
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=SiSoft
-OutputName16=SiSoft (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=Specctra Design PCB
-OutputName17=Specctra Design PCB
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=Web ReviewOutputName
-OutputName18=Web Review Data
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

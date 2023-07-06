@@ -1,0 +1,16 @@
+.TSB582IYQ2T :1 ;High output current with thermal shutdown and output current limiter, 3.1 MHz, 36 V, BiCMOS dual operational amplifier
+SON65P300X300X80-9N-D
+*STM IC
+*NGS
+*PLB 1="OUT1" 2="IN1-" 3="IN1+" 4="VCC-" 5="IN2+" 6="IN2-" 7="OUT2" 8="VCC+" 9="EP"
+*MXP 9
+*DFN TSB582IYQ2T
+~!Mouser Part Number (511-TSB582IYQ2T)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/TSB582IYQ2T?qs=Znm5pLBrcAKk3VhMkCWftg%3D%3D)
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (TSB582IYQ2T)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/tsb582.pdf)
+~!Height (0.8mm)
+~!3D_Model (TSB582IYQ2T)
+TSB582IYQ2T
+1.1!U 2.1!U 3.1!U 4.1!U 9.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

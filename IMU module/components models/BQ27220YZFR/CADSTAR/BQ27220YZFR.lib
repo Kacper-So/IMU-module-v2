@@ -1,0 +1,17 @@
+.BQ27220YZFR :1 ;ingle cell Pack/System-side CEDV Battery Fuel (Gas) Gauge w/Pre-programmed Chemistry Profiles, BGA-9
+BGA9C50P3X3_158X162X62
+*STM IC
+*NGS
+*PNM 1=A1 2=A2 3=A3 4=B1 5=B2 6=B3 7=C1 8=C2 9=C3
+*PLB 1="GPOUT" 2="SDA" 3="SCL" 4="BIN" 5="VSS" 6="VDD" 7="SRP" 8="SRN" 9="BAT"
+*MXP 9
+*DFN BQ27220YZFR
+~!Mouser Part Number (595-BQ27220YZFR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ27220YZFR?qs=dSktwyqbRaX%252B5G1xe9oNWw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (BQ27220YZFR)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/bq27220.pdf)
+~!Height (0.625mm)
+~!3D_Model (BQ27220YZFR)
+BQ27220YZFR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 

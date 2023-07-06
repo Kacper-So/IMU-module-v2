@@ -1,0 +1,118 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ENS210-LQFM"
+   (description "Board Mount Humidity Sensors ENS210-LQFM MLF4 LF T&R")
+   (family "OSC")
+   (package "ENS210LQFM")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "0.8mm")
+   (attribute "Mouser Part Number" "985-ENS210-LQFM")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ScioSense/ENS210-LQFM?qs=Zcin8yvlhnP3xLiFn26B1g%3D%3D")
+   (attribute "Manufacturer_Name" "ScioSense")
+   (attribute "Manufacturer_Part_Number" "ENS210-LQFM")
+   (gate
+    (symbol "ENS210-LQFM")
+    (pin "VDD_" 1 PS)
+    (pin "SCL" 2 PS)
+    (pin "SDA" 3 PS)
+    (pin "VSS_1" 4 PS)
+    (pin "VSS_2" 5 PS)
+   )
+  )
+  (symbol "ENS210-LQFM"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ENS210LQFM"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 -1)
+      (pt 1 -1)
+      (pt 1 1)
+      (pt -1 1)
+      (pt -1 -1))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.25 2)
+      (pt 2.25 2)
+      (pt 2.25 -2)
+      (pt -2.25 -2)
+      (pt -2.25 2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2 0.5)
+      (arc (pt -2.000 0.500) (pt -2.000 0.450) (pt -1.900 0.550) (start 180.0) (sweep 180.0))
+      (pt -1.9 0.5)
+      (arc (pt -1.900 0.500) (pt -2.000 0.450) (pt -1.900 0.550) (start 180.0) (sweep .0))
+      (pt -2 0.5)
+      (arc (pt -2.000 0.500) (pt -2.000 0.450) (pt -1.900 0.550) (start 180.0) (sweep 180.0))
+      (pt -1.9 0.5))))
+   (leg 1 (pt -0.950 0.475) (padstack 0))
+   (leg 2 (pt -0.950 -0.475) (padstack 0))
+   (leg 3 (pt 0.950 -0.475) (padstack 0))
+   (leg 4 (pt 0.950 0.475) (padstack 0))
+   (leg 5 (pt 0.000 0.000) (padstack 5))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.400 0.600 0 0 0.000))
+   )
+   (padstack 5
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 1.700 0 0 90.000))
+   )
+   (model "ENS210-LQFM.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ICM-40627
+#/14842493/901297/2.50/14/2/Accelerometer
+DEF ICM-40627 AC 0 30 Y Y 1 F N
+F0 "AC" 2050 1700 50 H V L CNN
+F1 "ICM-40627" 2050 1600 50 H V L CNN
+F2 "IIM42352" 2050 1500 50 H I L CNN
+F3 "https://3cfeqx1hf82y3xcoull08ihx-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/DS-000381-ICM-40627-v1.2.pdf" 2050 1400 50 H I L CNN
+F4 "IMUs - Inertial Measurement Units Highly accurate MEMS based motion sensor with bundled Air Motion algorithm for pointing and motion control" 2050 1300 50 H I L CNN "Description"
+F5 "" 2050 1200 50 H I L CNN "Height"
+F6 "410-ICM-40627" 2050 1100 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TDK-InvenSense/ICM-40627?qs=iLbezkQI%252BsgePVjJNSY7vQ%3D%3D" 2050 1000 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 2050 900 50 H I L CNN "Manufacturer_Name"
+F9 "ICM-40627" 2050 800 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X AP_SDO_/_AP_AD0 1 0 0 200 R 50 50 0 0 P
+X RESV_1 2 0 -100 200 R 50 50 0 0 P
+X RESV_2 3 0 -200 200 R 50 50 0 0 P
+X INT1_/_INT 4 0 -300 200 R 50 50 0 0 P
+X VDDIO 5 1000 -1000 200 U 50 50 0 0 P
+X GND 6 1100 -1000 200 U 50 50 0 0 P
+X RESV_3 7 1200 -1000 200 U 50 50 0 0 P
+X VDD 8 2200 -300 200 L 50 50 0 0 P
+X INT2_/_FSYNC 9 2200 -200 200 L 50 50 0 0 P
+X RESV_4 10 2200 -100 200 L 50 50 0 0 P
+X RESV_5 11 2200 0 200 L 50 50 0 0 P
+X AP_CS 12 1200 1700 200 D 50 50 0 0 P
+X AP_SCL_/_AP_SCLK 13 1100 1700 200 D 50 50 0 0 P
+X AP_SDA_/_AP_SDIO_/_AP_SDI 14 1000 1700 200 D 50 50 0 0 P
+P 5 0 1 6 200 1500 2000 1500 2000 -800 200 -800 200 1500 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TSB582IYQ2T'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "TSB582IYQ2T" (!) = "", "SON65P300X300X80-9N-D", "Small Outline No-lead", "511-TSB582IYQ2T", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/TSB582IYQ2T?qs=Znm5pLBrcAKk3VhMkCWftg%3D%3D", "High output current with thermal shutdown and output current limiter, 3.1 MHz, 36 V, BiCMOS dual operational amplifier", "https://www.st.com/resource/en/datasheet/tsb582.pdf", "0.8 mm"
+END_PART
+
+END.

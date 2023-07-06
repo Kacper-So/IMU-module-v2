@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RUT_R-PUQFN-N12_"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RUT_R-PUQFN-N12_")
+        (spec "default")
+    )
+)
