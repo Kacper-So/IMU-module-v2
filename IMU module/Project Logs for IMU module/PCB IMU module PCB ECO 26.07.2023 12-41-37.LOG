@@ -1,0 +1,41 @@
+Added Component: Designator=1(0402)
+Add component (AddParameter): Name = "Author"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "N.A."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Supplier link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "N.A."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Doc"; Value = "0402"; VariantName = "[No Variations]"
+Added Component: Designator=IC5(USBLC62P6)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "USBLC6-2P6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/usblc6-2p6/stmicroelectronics?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://datasheet.lcsc.com/szlcsc/STMicroelectronics-USBLC6-2P6_C15999.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "USBLC6-2P6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "511-USBLC6-2P6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/USBLC6-2P6?qs=6ARB0lp6jlViGcbUSvj1Mw%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=IC5-2
+Added Pin To Net: NetName=3v3 Pin=IC5-5
+Added Pin To Net: NetName=NetIC5_1 Pin=IC5-1
+Added Pin To Net: NetName=NetIC5_1 Pin=U2-27
+Added Net: Name=NetIC5_1
+Added Pin To Net: NetName=NetIC5_3 Pin=IC5-3
+Added Pin To Net: NetName=NetIC5_3 Pin=U2-28
+Added Net: Name=NetIC5_3
+Added Pin To Net: NetName=NetIC5_4 Pin=IC5-4
+Added Pin To Net: NetName=NetIC5_4 Pin=TX-1
+Added Net: Name=NetIC5_4
+Added Pin To Net: NetName=NetIC5_6 Pin=IC5-6
+Added Pin To Net: NetName=NetIC5_6 Pin=RX-1
+Added Net: Name=NetIC5_6
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator

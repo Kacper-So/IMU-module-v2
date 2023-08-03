@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CFN0402_JX_R020ELF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "CFN0402-JX-R020ELF" (!) = "", "RESC1105X55N", "Resistor Chip", "652-CFN0402-JX-R020E", "https://www.mouser.co.uk/ProductDetail/Bourns/CFN0402-JX-R020ELF?qs=iLbezkQI%252Bsi0LPdSp%252B%2FClA%3D%3D", "CFN Series Metal Foil, Current Sense Resistor", "https://g.componentsearchengine.com/Datasheets/0/13902106.pdf", "0.55 mm"
+END_PART
+
+END.

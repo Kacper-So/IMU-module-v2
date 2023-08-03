@@ -1,0 +1,16 @@
+.MIC5528-3.3YMT-T5 :1 ;LDO Voltage Regulators Single, 500mA LDO w/ Auto Discharge & Internal Enable Pulldown
+SON40P120X120X60-7N-D
+*STM IC
+*NGS
+*PLB 1="VOUT_1" 2="VOUT_2" 3="GND" 4="EN" 5="NC" 6="VIN" 7="EP"
+*MXP 7
+*DFN MIC5528-3.3YMT-T5
+~!Mouser Part Number (998-MIC5528-3.3YMTT5)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MIC5528-3.3YMT-T5?qs=U6T8BxXiZAUrsVLummtswg%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MIC5528-3.3YMT-T5)
+~!Link Datasheet (-)
+~!Height (0.6mm)
+~!3D_Model (MIC5528-3.3YMT-T5)
+MIC5528-3.3YMT-T5
+1.1!U 2.1!U 3.1!U 7.1!U 6.1!U 5.1!U 4.1!U 

@@ -1,0 +1,141 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MIC5528-3.3YMT-T5"
+   (description "LDO Voltage Regulators Single, 500mA LDO w/ Auto Discharge & Internal Enable Pulldown")
+   (family "ANA")
+   (package "SON40P120X120X60-7N-D")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "0.6mm")
+   (attribute "Mouser Part Number" "998-MIC5528-3.3YMTT5")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MIC5528-3.3YMT-T5?qs=U6T8BxXiZAUrsVLummtswg%3D%3D")
+   (attribute "Manufacturer_Name" "Microchip")
+   (attribute "Manufacturer_Part_Number" "MIC5528-3.3YMT-T5")
+   (gate
+    (symbol "MIC5528-3.3YMT-T5")
+    (pin "VOUT_1" 1 PS)
+    (pin "VOUT_2" 2 PS)
+    (pin "GND" 3 PS)
+    (pin "EP" 7 PS)
+    (pin "VIN" 6 PS)
+    (pin "NC" 5 NC)
+    (pin "EN" 4 PS)
+   )
+  )
+  (symbol "MIC5528-3.3YMT-T5"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 -700) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SON40P120X120X60-7N-D"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.2 0.875)
+      (pt 1.2 0.875)
+      (pt 1.2 -0.875)
+      (pt -1.2 -0.875)
+      (pt -1.2 0.875))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.6 0.6)
+      (pt 0.6 0.6)
+      (pt 0.6 -0.6)
+      (pt -0.6 -0.6)
+      (pt -0.6 0.6))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.6 0.3)
+      (pt -0.3 0.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (circle
+      (pt -0.825 1) (pt -1.075 1)
+     )
+    )
+   )
+   (leg 1 (pt -0.65 0.4) (padstack 0))
+   (leg 2 (pt -0.65 0) (padstack 0))
+   (leg 3 (pt -0.65 -0.4) (padstack 0))
+   (leg 4 (pt 0.65 -0.4) (padstack 2))
+   (leg 5 (pt 0.65 0) (padstack 2))
+   (leg 6 (pt 0.65 0.4) (padstack 2))
+   (leg 7 (pt 0 0) (padstack 7))
+   (padstack 0
+    (pad (layer TCOP) (path (pt -0.3 0.1) (arc (pt 0.2 0.1) (pt 0.1 -0.1) (pt 0.3 0.1) (start -180) (sweep 90)) (pt 0.2 -0.1) (pt -0.3 -0.1) (pt -0.3 0.1)))
+   )
+   (padstack 1
+    (pad (layer TCOP) (path (pt -0.1 -0.3) (arc (pt -0.1 0.2) (pt -0.1 0.1) (pt 0.1 0.3) (start -180) (sweep 180)) (pt 0.1 0.2) (pt 0.1 -0.3) (pt -0.1 -0.3)))
+   )
+   (padstack 2
+    (pad (layer TCOP) (path (pt 0.3 -0.1) (arc (pt -0.2 -0.1) (pt -0.3 -0.1) (pt -0.1 0.1) (start -180) (sweep 270)) (pt -0.2 0.1) (pt 0.3 0.1) (pt 0.3 -0.1)))
+   )
+   (padstack 3
+    (pad (layer TCOP) (path (pt 0.1 0.3) (arc (pt 0.1 -0.2) (pt -0.1 -0.3) (pt 0.1 -0.1) (start -180) (sweep 0)) (pt -0.1 -0.2) (pt -0.1 0.3) (pt 0.1 0.3)))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 0.35 0.99 0 0 90))
+   )
+   (model "MIC5528-3.3YMT-T5.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

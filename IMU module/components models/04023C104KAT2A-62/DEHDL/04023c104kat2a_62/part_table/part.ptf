@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '04023C104KAT2A_62'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "KYOCERA", "04023C104KAT2A-62" (!) = "", "CAPC1005X56N", "Capacitor Chip Non-polarised", "581-04023C104KAT2A62", "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/04023C104KAT2A-62?qs=%252BdQmOuGyFcH%2FNuvX5KIF9Q%3D%3D", "Multilayer Ceramic Capacitors MLCC - SMD/SMT T101 COMMERCIAL", "https://www.arrow.com/en/products/04023c104kat2a-62/avx", "0.56 mm"
+END_PART
+
+END.

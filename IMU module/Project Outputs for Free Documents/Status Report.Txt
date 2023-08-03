@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [PCB IMU module.PcbDoc]
+   Generated File[PCB IMU module-RoundHoles.TXT]
+   Generated File[PCB IMU module-SlotHoles.TXT]
+   Generated File[PCB IMU module.LDP]
+   Generated File[PCB IMU module.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 15:16:27 On 03.08.2023

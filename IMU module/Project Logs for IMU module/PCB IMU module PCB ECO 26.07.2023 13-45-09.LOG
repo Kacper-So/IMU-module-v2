@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=SPI.CS_IMU Pin=U2-16
+Added Component: Designator=1(0402)
+Add component (AddParameter): Name = "Author"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "N.A."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Supplier link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "N.A."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Doc"; Value = "0402"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SPI.CS_IMU Pin=U2-9
+Added Pin To Net: NetName=NetU2_16 Pin=U2-16
+Added Pin To Net: NetName=NetU2_16 Pin=U3-15
+Added Net: Name=NetU2_16
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator

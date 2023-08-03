@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
 IsVirtualBomDocumentRemoved=0
-OutputPath=
+OutputPath=Project Outputs for IMU module
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -49,40 +49,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Components.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FOBWVKPX
-
-[Document2]
-DocumentPath=Components.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HHNNKMTT
-
-[Document3]
 DocumentPath=Title Page.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,7 +65,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RIIEZHZT
 
-[Document4]
+[Document2]
 DocumentPath=PCB IMU module.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +82,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KQASNFIU
 
-[Document5]
+[Document3]
 DocumentPath=Top Level Organization.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,8 +99,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TZAPAPCL
 
-[Document6]
-DocumentPath=nRF.SchDoc
+[Document4]
+DocumentPath=ESP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -150,7 +116,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DYUNNAEI
 
-[Document7]
+[Document5]
 DocumentPath=IMU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,7 +133,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WVZKSMLU
 
-[Document8]
+[Document6]
 DocumentPath=LDO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,7 +150,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NQEYGJCI
 
-[Document9]
+[Document7]
 DocumentPath=BMS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -201,24 +167,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HTANUPYG
 
-[Document10]
-DocumentPath=FUEL GAUGE.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BBQJSYCH
-
-[Document11]
+[Document8]
 DocumentPath=MAG.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -235,8 +184,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SRBAYIRX
 
-[Document12]
-DocumentPath=ANT.SchDoc
+[Document9]
+DocumentPath=ESP.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -250,7 +199,205 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ANUOFCJJ
+DocumentUniqueId=
+
+[Document10]
+DocumentPath=IMU.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document11]
+DocumentPath=CONNECTORS.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZYEACNAE
+
+[Document12]
+DocumentPath=MAG.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document13]
+DocumentPath=CONNECTORS.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document14]
+DocumentPath=OutJob.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document15]
+DocumentPath=IMU module.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for IMU module\Design Rule Check - PCB IMU module.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Free Documents\NC Drill\PCB IMU module-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Free Documents\NC Drill\PCB IMU module-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Free Documents\NC Drill\PCB IMU module.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for Free Documents\NC Drill\PCB IMU module.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.REP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.RUL
+DItemRevisionGUID=
 
 [Parameter1]
 Name=1.Project Title
@@ -282,95 +429,31 @@ Value=Top Level Organization
 
 [Parameter8]
 Name=7.Title Schema 1
-Value=ESP32
+Value=nRF
 
 [Parameter9]
 Name=8.Title Schema 2
-Value=Power
+Value=IMU
 
 [Parameter10]
 Name=9.Title Schema 3
-Value=Charger
+Value=LDO
 
 [Parameter11]
 Name=10.Title Schema 4
-Value=Step up converter
+Value=BMS
 
 [Parameter12]
 Name=11.Title Schema 5
-Value=LDO
+Value=FUEL GAUGE
 
 [Parameter13]
 Name=12.Title Schema 6
-Value=Charger mating pads
+Value=MAG
 
 [Parameter14]
 Name=13.Title Schema 7
-Value=Battery gauge
-
-[Parameter15]
-Name=14.Title Schema 8
-Value=Power switch
-
-[Parameter16]
-Name=15.Title Schema 9
-Value=Current source
-
-[Parameter17]
-Name=16.Title Schema 10
-Value=Current source
-
-[Parameter18]
-Name=17.Title Schema 11
-Value=Current measurement
-
-[Parameter19]
-Name=18.Title Schema 12
-Value=Force sensors
-
-[Parameter20]
-Name=19.Title Schema 13
-Value=Tensometers
-
-[Parameter21]
-Name=20.Title Schema 14
-Value=FSR
-
-[Parameter22]
-Name=21.Title Schema 15
-Value=IMU and encoder connector
-
-[Parameter23]
-Name=22.Title Schema 16
-Value=Proximity sensor connector
-
-[Parameter24]
-Name=23.Title Schema 17
-Value=LED ring voltage level translator
-
-[Parameter25]
-Name=24.Title Schema 18
-Value=LED ring connector
-
-[Parameter26]
-Name=25.Title Schema 19
-Value=On-off controller
-
-[Parameter27]
-Name=26.Title Schema 20
-Value=Button connector
-
-[Parameter28]
-Name=27.Title Schema 21
-Value=Buttons leds controller
-
-[Parameter29]
-Name=28.Title Schema 22
-Value=Programming connector
-
-[Parameter30]
-Name=29.Title Schema 23
-Value=Expander GPIO
+Value=ANT
 
 [Configuration1]
 Name=Sources
@@ -381,6 +464,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_EDE]
+OutputDir=Project Outputs for IMU module
 
 [OutputGroup1]
 Name=Netlist Outputs

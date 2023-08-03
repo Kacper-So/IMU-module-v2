@@ -1,0 +1,16 @@
+.CFN0402-JX-R020ELF :1 ;CFN Series Metal Foil, Current Sense Resistor
+RESC1105X55N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CFN0402-JX-R020ELF
+~!Mouser Part Number (652-CFN0402-JX-R020E)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/CFN0402-JX-R020ELF?qs=iLbezkQI%252Bsi0LPdSp%252B%2FClA%3D%3D)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (CFN0402-JX-R020ELF)
+~!Link Datasheet (https://g.componentsearchengine.com/Datasheets/0/13902106.pdf)
+~!Height (0.55mm)
+~!3D_Model (CFN0402-JX-R020ELF)
+CFN0402-JX-R020ELF
+1.1!U 2.1!U 

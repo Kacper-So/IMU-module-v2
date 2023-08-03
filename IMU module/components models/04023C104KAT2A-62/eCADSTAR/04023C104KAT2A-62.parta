@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_17139068"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-12-31-02:49:26)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "04023C104KAT2A-62")
+)
+
+
+(pinAssign "ECS_17139068"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-12-31-02:49:26)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_17139068")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "04023C104KAT2A-62")
+)
+
+
+(part "04023C104KAT2A-62"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-12-31-02:49:26)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "04023C104KAT2A-62")
+    (pinAssignRef "ECS_17139068")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT T101 COMMERCIAL")
+    (property "Mouser_Part_Number" "581-04023C104KAT2A62")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/04023C104KAT2A-62?qs=%252BdQmOuGyFcH%2FNuvX5KIF9Q%3D%3D")
+    (property "Manufacturer_Name" "KYOCERA")
+    (property "Manufacturer_Part_Number" "04023C104KAT2A-62")
+    (property "Datasheet_Link" "https://www.arrow.com/en/products/04023c104kat2a-62/avx")
+    (property "compAreaTopHeight" 0.56)
+)
+
+

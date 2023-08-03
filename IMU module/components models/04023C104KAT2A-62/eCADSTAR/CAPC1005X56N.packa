@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "04023C104KAT2A-62"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-12-31-02:49:26)
+    (mountForm default
+        (footprintRef "CAPC1005X56N")
+        (spec "System")
+    )
+)
