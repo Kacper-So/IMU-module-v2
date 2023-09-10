@@ -55,7 +55,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -89,7 +89,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -106,7 +106,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -123,7 +123,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -140,7 +140,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -157,7 +157,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -174,7 +174,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -225,7 +225,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -308,95 +308,95 @@ DocumentPath=Project Outputs for IMU module\Design Rule Check - PCB IMU module.h
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Free Documents\NC Drill\PCB IMU module-RoundHoles.TXT
+DocumentPath=Project Outputs for IMU module\NC Drill\PCB IMU module-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Free Documents\NC Drill\PCB IMU module-SlotHoles.TXT
+DocumentPath=Project Outputs for IMU module\NC Drill\PCB IMU module-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Free Documents\NC Drill\PCB IMU module.DRR
+DocumentPath=Project Outputs for IMU module\NC Drill\PCB IMU module.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.EXTREP
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GBL
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GBO
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GBP
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GBS
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GKO
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GM1
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GM13
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GM15
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GP1
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.GP1
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GP2
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.GP2
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GPB
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GPT
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GTL
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GTO
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GTP
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.GTS
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for Free Documents\NC Drill\PCB IMU module.LDP
+DocumentPath=Project Outputs for IMU module\NC Drill\PCB IMU module.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.REP
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.REP
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB IMU module.RUL
+DocumentPath=Project Outputs for IMU module\Gerber\PCB IMU module.RUL
 DItemRevisionGUID=
 
 [Parameter1]
