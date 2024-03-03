@@ -4,11 +4,31 @@
 #include <MadgwickAHRS.h>
 #include <MahonyAHRS.h>
 #include <SparkFun_MMC5983MA_Arduino_Library.h>
- 
+#include <ArduinoMqttClient.h>
+#include "credentials.h"
+#include <WiFi.h>
+
+bool debug = true;
+
+WiFiClient wifiClient;
+MqttClient mqtt(wifiClient);
+
 ICM40627 IMU;
 SFE_MMC5983MA MAG;
 Madgwick MadgwickFilter;
 Mahony MahonyFilter;
+
+char topic_dataMadgwick[] = "damper/data_Madgwick";
+char topic_dataMahony[] = "damper/data_dataMahony";
+
+void sendMqttMsg(String to_print, String topic, MqttClient& mqtt, bool debug){
+    mqtt.beginMessage(topic);
+    mqtt.print(to_print);
+    mqtt.endMessage();
+    if(debug){
+        Serial.println(String(to_print + " : to : " + String(topic)));
+    }
+}
 
 struct MeasurementData {
     float accelerometer_x;
@@ -64,6 +84,27 @@ void setup() {
 
   MadgwickFilter.begin(200);
   MahonyFilter.begin(200);
+
+	// connect to wifi
+	Serial.print("Connecting to WiFi");
+	WiFi.begin(WIFI_SSID, WIFI_PSWD);
+	while (WiFi.status() != WL_CONNECTED) {
+		delay(1000);
+		Serial.print(".");
+  	}
+
+	Serial.println("Connecting to MQTT host");
+	mqtt.setUsernamePassword(
+		MQTT_USER,
+		MQTT_PSWD
+	);
+	if (!mqtt.connect(MQTT_BROKER_IP, MQTT_BROKER_PORT)) {
+		Serial.print("MQTT connection failed! Error code = ");
+		Serial.println(mqtt.connectError());
+		while (1);
+  	}
+	Serial.println("MQTT connected");
+
 }
  
 void loop() {
@@ -78,5 +119,12 @@ void loop() {
   MahonyResult.pitch = MahonyFilter.getPitch() * RAD_TO_DEG;
   MahonyResult.yaw = MahonyFilter.getYaw() * RAD_TO_DEG;
 
+  String data_to_print;
+  data_to_print = String(MadgwickResult.roll)+';'+String(MadgwickResult.pitch)+';'+String(MadgwickResult.yaw);
+  sendMqttMsg(data_to_print, topic_dataMadgwick, mqtt, debug);
+
+  data_to_print = String(MahonyResult.roll)+';'+String(MahonyResult.pitch)+';'+String(MahonyResult.yaw);
+  sendMqttMsg(data_to_print, topic_dataMahony, mqtt, debug);
+  
   delay(100);
 }
