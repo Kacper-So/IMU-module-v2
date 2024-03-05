@@ -18,8 +18,8 @@ SFE_MMC5983MA MAG;
 Madgwick MadgwickFilter;
 Mahony MahonyFilter;
 
-char topic_dataMadgwick[] = "damper/data_Madgwick";
-char topic_dataMahony[] = "damper/data_dataMahony";
+char topic_dataMadgwick[] = "AHRS/data_Madgwick";
+char topic_dataMahony[] = "AHRS/data_dataMahony";
 
 void sendMqttMsg(String to_print, String topic, MqttClient& mqtt, bool debug){
     mqtt.beginMessage(topic);
@@ -94,10 +94,10 @@ void setup() {
   	}
 
 	Serial.println("Connecting to MQTT host");
-	mqtt.setUsernamePassword(
-		MQTT_USER,
-		MQTT_PSWD
-	);
+	// mqtt.setUsernamePassword(
+	// 	MQTT_USER,
+	// 	MQTT_PSWD
+	// );
 	if (!mqtt.connect(MQTT_BROKER_IP, MQTT_BROKER_PORT)) {
 		Serial.print("MQTT connection failed! Error code = ");
 		Serial.println(mqtt.connectError());
