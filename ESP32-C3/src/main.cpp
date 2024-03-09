@@ -65,9 +65,24 @@ void update_measurements(MeasurementData &data){
   data.gyroscope_y = IMU_data[5] * IMU.getAres(AFS_8G);
   data.gyroscope_z = IMU_data[6] * IMU.getAres(AFS_8G);
 
-  data.mag_x = MAG.getMeasurementX();
+  data.mag_x = -MAG.getMeasurementX();
   data.mag_y = MAG.getMeasurementY();
-  data.mag_z = MAG.getMeasurementZ();
+  data.mag_z = -MAG.getMeasurementZ();
+
+  data.mag_x = (double)data.mag_x - 131072.0;
+  data.mag_x /= 131072.0;
+  data.mag_y = (double)data.mag_y - 131072.0;
+  data.mag_y /= 131072.0;
+  data.mag_z = (double)data.mag_z - 131072.0;
+  data.mag_z /= 131072.0;
+
+  data.mag_x = data.mag_x * 8;
+  data.mag_y = data.mag_y * 8;
+  data.mag_z = data.mag_z * 8;
+
+  data.mag_x = -data.mag_x;
+  data.mag_y = data.mag_y;
+  data.mag_z = -data.mag_z;
 }
 
 int16_t IMU_data[7];
@@ -94,10 +109,10 @@ void setup() {
   	}
 
 	Serial.println("Connecting to MQTT host");
-	// mqtt.setUsernamePassword(
-	// 	MQTT_USER,
-	// 	MQTT_PSWD
-	// );
+	mqtt.setUsernamePassword(
+		MQTT_USER,
+		MQTT_PSWD
+	);
 	if (!mqtt.connect(MQTT_BROKER_IP, MQTT_BROKER_PORT)) {
 		Serial.print("MQTT connection failed! Error code = ");
 		Serial.println(mqtt.connectError());
