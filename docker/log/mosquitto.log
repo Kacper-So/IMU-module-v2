@@ -1,0 +1,148 @@
+
+1709829061: mosquitto version 2.0.18 starting
+1709829061: Config loaded from /mosquitto/config/mosquitto.conf.
+1709829061: Opening ipv4 listen socket on port 1883.
+1709829061: Opening ipv4 listen socket on port 9001.
+1709829061: Opening ipv6 listen socket on port 9001.
+1709829061: mosquitto version 2.0.18 running
+1709829293: mosquitto version 2.0.18 starting
+1709829293: Config loaded from /mosquitto/config/mosquitto.conf.
+1709829293: Opening ipv4 listen socket on port 1883.
+1709829293: Opening ipv4 listen socket on port 9001.
+1709829293: Opening ipv6 listen socket on port 9001.
+1709829293: mosquitto version 2.0.18 running
+1709829700: mosquitto version 2.0.18 terminating
+1709829700: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709829701: mosquitto version 2.0.18 starting
+1709829701: Config loaded from /mosquitto/config/mosquitto.conf.
+1709829701: Opening ipv4 listen socket on port 1883.
+1709829701: Opening ipv6 listen socket on port 1883.
+1709829701: mosquitto version 2.0.18 running
+1709830134: mosquitto version 2.0.18 terminating
+1709830134: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709830135: mosquitto version 2.0.18 starting
+1709830135: Config loaded from /mosquitto/config/mosquitto.conf.
+1709830135: Opening ipv4 listen socket on port 1883.
+1709830135: mosquitto version 2.0.18 running
+1709830266: mosquitto version 2.0.18 terminating
+1709830266: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709830267: mosquitto version 2.0.18 starting
+1709830267: Config loaded from /mosquitto/config/mosquitto.conf.
+1709830267: Opening ipv4 listen socket on port 1883.
+1709830267: mosquitto version 2.0.18 running
+1709830406: mosquitto version 2.0.18 starting
+1709830406: Config loaded from /mosquitto/config/mosquitto.conf.
+1709830406: Opening ipv4 listen socket on port 1883.
+1709830406: mosquitto version 2.0.18 running
+1709831266: mosquitto version 2.0.18 terminating
+1709831266: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709831294: mosquitto version 2.0.18 starting
+1709831294: Config loaded from /mosquitto/config/mosquitto.conf.
+1709831294: Opening ipv4 listen socket on port 1883.
+1709831294: mosquitto version 2.0.18 running
+1709831582: mosquitto version 2.0.18 starting
+1709831582: Config loaded from /mosquitto/config/mosquitto.conf.
+1709831582: Opening ipv4 listen socket on port 1883.
+1709831582: mosquitto version 2.0.18 running
+1709831656: New connection from 172.18.0.1:34512 on port 1883.
+1709831656: Client <unknown> disconnected due to protocol error.
+1709831656: New connection from 172.18.0.1:34516 on port 1883.
+1709831656: New connection from 172.18.0.1:34528 on port 1883.
+1709831657: Client <unknown> disconnected due to protocol error.
+1709831657: Client <unknown> disconnected due to protocol error.
+1709831657: New connection from 172.18.0.1:34544 on port 1883.
+1709831657: Client <unknown> disconnected due to protocol error.
+1709831657: New connection from 172.18.0.1:34560 on port 1883.
+1709831657: New connection from 172.18.0.1:34576 on port 1883.
+1709831658: Client <unknown> disconnected due to protocol error.
+1709831658: Client <unknown> disconnected due to protocol error.
+1709831658: New connection from 172.18.0.1:34580 on port 1883.
+1709831658: Client <unknown> disconnected due to protocol error.
+1709831658: New connection from 172.18.0.1:34594 on port 1883.
+1709831658: New connection from 172.18.0.1:34610 on port 1883.
+1709831659: Client <unknown> disconnected due to protocol error.
+1709831659: Client <unknown> disconnected due to protocol error.
+1709831659: New connection from 172.18.0.1:34620 on port 1883.
+1709831659: Client <unknown> disconnected due to protocol error.
+1709831659: New connection from 172.18.0.1:34632 on port 1883.
+1709831659: New connection from 172.18.0.1:34642 on port 1883.
+1709831659: Client <unknown> disconnected due to protocol error.
+1709831659: Client <unknown> disconnected due to protocol error.
+1709831659: New connection from 172.18.0.1:34652 on port 1883.
+1709831659: Client <unknown> disconnected due to protocol error.
+1709831659: New connection from 172.18.0.1:34662 on port 1883.
+1709831659: New connection from 172.18.0.1:34660 on port 1883.
+1709831659: Client <unknown> disconnected due to protocol error.
+1709831659: Client <unknown> disconnected due to protocol error.
+1709831659: New connection from 172.18.0.1:34664 on port 1883.
+1709831659: Client <unknown> disconnected due to protocol error.
+1709831659: New connection from 172.18.0.1:34672 on port 1883.
+1709831659: New connection from 172.18.0.1:34678 on port 1883.
+1709831660: Client <unknown> disconnected due to protocol error.
+1709831660: Client <unknown> disconnected due to protocol error.
+1709831660: New connection from 172.18.0.1:34688 on port 1883.
+1709831660: Client <unknown> disconnected due to protocol error.
+1709831660: New connection from 172.18.0.1:34692 on port 1883.
+1709831660: New connection from 172.18.0.1:34696 on port 1883.
+1709831660: Client <unknown> disconnected due to protocol error.
+1709831660: Client <unknown> disconnected due to protocol error.
+1709831660: New connection from 172.18.0.1:34712 on port 1883.
+1709831660: Client <unknown> disconnected due to protocol error.
+1709831660: New connection from 172.18.0.1:34722 on port 1883.
+1709831660: New connection from 172.18.0.1:34720 on port 1883.
+1709831665: Client <unknown> disconnected due to protocol error.
+1709831665: Client <unknown> disconnected due to protocol error.
+1709831665: New connection from 172.18.0.1:43002 on port 1883.
+1709831665: Client <unknown> disconnected due to protocol error.
+1709831665: New connection from 172.18.0.1:43008 on port 1883.
+1709831665: New connection from 172.18.0.1:43014 on port 1883.
+1709831695: Client <unknown> disconnected due to protocol error.
+1709831695: Client <unknown> disconnected due to protocol error.
+1709831695: New connection from 172.18.0.1:52362 on port 1883.
+1709831695: Client <unknown> disconnected due to protocol error.
+1709831695: New connection from 172.18.0.1:52374 on port 1883.
+1709831695: New connection from 172.18.0.1:52382 on port 1883.
+1709831755: Client <unknown> closed its connection.
+1709831755: Client <unknown> closed its connection.
+1709831755: New connection from 172.18.0.1:42618 on port 1883.
+1709831755: Client <unknown> disconnected due to protocol error.
+1709831755: New connection from 172.18.0.1:42624 on port 1883.
+1709831755: New connection from 172.18.0.1:42630 on port 1883.
+1709831846: Client <unknown> has exceeded timeout, disconnecting.
+1709831846: Client <unknown> has exceeded timeout, disconnecting.
+1709831912: New connection from 192.168.108.26:41526 on port 1883.
+1709831912: New client connected from 192.168.108.26:41526 as mymqtt-3846773181548090 (p5, c0, k60, u'user').
+1709832055: New connection from 172.18.0.1:51952 on port 1883.
+1709832055: Client <unknown> disconnected due to protocol error.
+1709832055: New connection from 172.18.0.1:51956 on port 1883.
+1709832055: New connection from 172.18.0.1:51962 on port 1883.
+1709832119: Client <unknown> closed its connection.
+1709832119: Client <unknown> closed its connection.
+1709832212: New connection from 192.168.108.30:59852 on port 1883.
+1709832212: New client connected from 192.168.108.30:59852 as Arduino-00000df5 (p2, c1, k60, u'user').
+1709832302: Client mymqtt-3846773181548090 has exceeded timeout, disconnecting.
+1709832306: New connection from 192.168.108.26:41570 on port 1883.
+1709832306: New client connected from 192.168.108.26:41570 as mymqtt-3846773181548090 (p5, c1, k60, u'user').
+1709832332: Client Arduino-00000df5 has exceeded timeout, disconnecting.
+1709832342: mosquitto version 2.0.18 starting
+1709832342: Config loaded from /mosquitto/config/mosquitto.conf.
+1709832342: Opening ipv4 listen socket on port 1883.
+1709832342: mosquitto version 2.0.18 running
+1709832343: New connection from 192.168.108.26:41582 on port 1883.
+1709832343: New client connected from 192.168.108.26:41582 as mymqtt-3846773181548090 (p5, c1, k60, u'user').
+1709832437: Client mymqtt-3846773181548090 has exceeded timeout, disconnecting.
+1709832449: New connection from 192.168.108.26:41586 on port 1883.
+1709832449: New client connected from 192.168.108.26:41586 as mymqtt-3846773181548090 (p5, c1, k60, u'user').
+1709832493: New connection from 127.0.0.1:43615 on port 1883.
+1709832493: New client connected from 127.0.0.1:43615 as auto-DA718F0D-41E8-11AA-5C38-B6BAFF11192D (p2, c1, k60).
+1709832509: New connection from 192.168.108.30:61420 on port 1883.
+1709832509: New client connected from 192.168.108.30:61420 as Arduino-0000084f (p2, c1, k60, u'user').
+1709832539: Client mymqtt-3846773181548090 has exceeded timeout, disconnecting.
+1709832540: New connection from 192.168.108.26:41606 on port 1883.
+1709832540: New client connected from 192.168.108.26:41606 as mymqtt-3846773181548090 (p5, c1, k60, u'user').
+1709832566: mosquitto version 2.0.18 terminating
+1709832566: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709991254: mosquitto version 2.0.18 starting
+1709991254: Config loaded from /mosquitto/config/mosquitto.conf.
+1709991254: Opening ipv4 listen socket on port 1883.
+1709991254: mosquitto version 2.0.18 running
