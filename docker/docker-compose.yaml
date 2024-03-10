@@ -6,6 +6,8 @@ services:
     image: eclipse-mosquitto
     # network_mode: "host"
     restart: always
+    built:
+      dockerfile: ./Dockerfile
     volumes:
       - ./config:/mosquitto/config
       - ./data:/mosquitto/data

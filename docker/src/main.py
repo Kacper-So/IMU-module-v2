@@ -1,21 +1,65 @@
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+import numpy as np
+import json
 import paho.mqtt.client as mqtt
 
-broker_host = "127.0.0.1"
-broker_port = 1883
+broker_address = "127.0.0.1"
+port = 1883
+topic = "AHRS/data_Madgwick"
 
-def on_connect(client, userdata, flags, rc):
-    print("Connected with result code "+str(rc))
-    client.subscribe("AHRS/data_Madgwick")
-    client.subscribe("AHRS/data_dataMahony")
+roll_data = []
+pitch_data = []
+yaw_data = []
 
-def on_message(client, userdata, msg):
-    print(msg.topic+" "+str(msg.payload))
+def on_message(client, userdata, message):
+    try:
+        msg_data = message.payload.decode().split(';')
+        roll = float(msg_data[0])
+        pitch = float(msg_data[1])
+        yaw = float(msg_data[2])
+        
+        roll_data.append(roll)
+        pitch_data.append(pitch)
+        yaw_data.append(yaw)
 
-client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1)
+        fig = plt.figure(figsize=(10, 8))
+        
+        plt.subplot(2, 2, 1)
+        plt.plot(roll, label='Roll')
+        plt.title('Roll')
+        plt.legend()
+        
+        plt.subplot(2, 2, 2)
+        plt.plot(pitch, label='Pitch')
+        plt.title('Pitch')
+        plt.legend()
+        
+        plt.subplot(2, 2, 3)
+        plt.plot(yaw, label='Yaw')
+        plt.title('Yaw')
+        plt.legend()
+        
+        ax = fig.add_subplot(2, 2, 4, projection='3d')
+        ax.plot(roll, pitch, yaw, label='AHRS Data')
+        ax.set_xlabel('Roll')
+        ax.set_ylabel('Pitch')
+        ax.set_zlabel('Yaw')
+        ax.set_title('AHRS Data 3D Visualization')
+        ax.legend()
+        
+        plt.tight_layout()
+        plt.show()
+        
+    except Exception as e:
+        print("Error:", e)
 
-client.on_connect = on_connect
+client = mqtt.Client()
 client.on_message = on_message
 
-client.connect(broker_host, broker_port, 60)
+client.connect(broker_address, port=port)
+client.subscribe(topic)
 
 client.loop_forever()
+
+client.disconnect()

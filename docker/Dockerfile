@@ -7,4 +7,4 @@ COPY main.py /root/main.py
 
 EXPOSE 1883
 
-#CMD ["python3", "/root/main.py"]
+CMD ["python3", "/root/main.py"]
