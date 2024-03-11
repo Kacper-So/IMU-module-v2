@@ -3,16 +3,19 @@ version: '3.9'
 services:
   mosquitto:
     container_name: mqtt
-    image: eclipse-mosquitto
-    # network_mode: "host"
+    image: magisterka-mosquitto
     restart: always
-    built:
-      dockerfile: ./Dockerfile
     volumes:
       - ./config:/mosquitto/config
       - ./data:/mosquitto/data
       - ./log:/mosquitto/log
       - ./src:/mosquitto/src
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    environment:
+      - DISPLAY=:0
+      - QT_X11_NO_MITSHM=1
+    devices:
+      - /dev/dri:/dev/dri
     ports:
       - 1883:1883
       - 9001:9001

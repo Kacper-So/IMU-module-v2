@@ -146,3 +146,469 @@
 1709991254: Config loaded from /mosquitto/config/mosquitto.conf.
 1709991254: Opening ipv4 listen socket on port 1883.
 1709991254: mosquitto version 2.0.18 running
+1709991507: New connection from 192.168.108.30:59374 on port 1883.
+1709991507: New client connected from 192.168.108.30:59374 as Arduino-00000bc2 (p2, c1, k60, u'user').
+1709991562: New connection from 192.168.108.30:63714 on port 1883.
+1709991562: New client connected from 192.168.108.30:63714 as Arduino-000012d6 (p2, c1, k60, u'user').
+1709991616: Client Arduino-00000bc2 has exceeded timeout, disconnecting.
+1709991768: New connection from 192.168.108.30:59406 on port 1883.
+1709991768: New client connected from 192.168.108.30:59406 as Arduino-00000687 (p2, c1, k60, u'user').
+1709991790: Client Arduino-000012d6 has exceeded timeout, disconnecting.
+1709991878: New connection from 192.168.108.30:52314 on port 1883.
+1709991878: New client connected from 192.168.108.30:52314 as Arduino-00000642 (p2, c1, k60, u'user').
+1709991886: Client Arduino-00000687 has exceeded timeout, disconnecting.
+1709991915: New connection from 192.168.108.30:62404 on port 1883.
+1709991915: New client connected from 192.168.108.30:62404 as Arduino-00000d13 (p2, c1, k60, u'user').
+1709992006: Client Arduino-00000642 has exceeded timeout, disconnecting.
+1709992114: Client Arduino-00000d13 has exceeded timeout, disconnecting.
+1709992184: New connection from 192.168.108.30:60222 on port 1883.
+1709992184: New client connected from 192.168.108.30:60222 as Arduino-00000797 (p2, c1, k60, u'user').
+1709992215: New connection from 192.168.108.30:64454 on port 1883.
+1709992215: New client connected from 192.168.108.30:64454 as Arduino-00000d29 (p2, c1, k60, u'user').
+1709992280: New connection from 192.168.108.30:58700 on port 1883.
+1709992280: New client connected from 192.168.108.30:58700 as Arduino-00000a91 (p2, c1, k60, u'user').
+1709992288: Client Arduino-00000797 has exceeded timeout, disconnecting.
+1709992318: Client Arduino-00000d29 has exceeded timeout, disconnecting.
+1709992709: New connection from 192.168.108.30:63855 on port 1883.
+1709992709: New client connected from 192.168.108.30:63855 as Arduino-00000bee (p2, c1, k60, u'user').
+1709992756: Client Arduino-00000a91 has exceeded timeout, disconnecting.
+1709993019: New connection from 192.168.108.30:54393 on port 1883.
+1709993019: New client connected from 192.168.108.30:54393 as Arduino-00000c07 (p2, c1, k60, u'user').
+1709993038: Client Arduino-00000bee has exceeded timeout, disconnecting.
+1709993057: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709993430: New connection from 192.168.108.30:52882 on port 1883.
+1709993430: New client connected from 192.168.108.30:52882 as Arduino-00000fd3 (p2, c1, k60, u'user').
+1709993476: Client Arduino-00000c07 has exceeded timeout, disconnecting.
+1709993720: Client Arduino-00000fd3 has exceeded timeout, disconnecting.
+1709993731: New connection from 192.168.108.30:51337 on port 1883.
+1709993731: New client connected from 192.168.108.30:51337 as Arduino-00000b01 (p2, c1, k60, u'user').
+1709993775: New connection from 192.168.108.30:58195 on port 1883.
+1709993775: New client connected from 192.168.108.30:58195 as Arduino-000009a4 (p2, c1, k60, u'user').
+1709993834: Client Arduino-00000b01 has exceeded timeout, disconnecting.
+1709993943: Client Arduino-000009a4 closed its connection.
+1709994116: New connection from 192.168.108.30:55599 on port 1883.
+1709994116: New client connected from 192.168.108.30:55599 as Arduino-00001a00 (p2, c1, k60, u'user').
+1709994296: Client Arduino-00001a00 has exceeded timeout, disconnecting.
+1709994858: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709996208: New connection from 192.168.108.30:50615 on port 1883.
+1709996208: New client connected from 192.168.108.30:50615 as Arduino-00000b40 (p2, c1, k60, u'user').
+1709996507: Client Arduino-00000b40 has exceeded timeout, disconnecting.
+1709996659: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709996860: New connection from 192.168.108.30:54395 on port 1883.
+1709996861: New client connected from 192.168.108.30:54395 as Arduino-00000b58 (p2, c1, k60, u'user').
+1709996963: Client Arduino-00000b58 has exceeded timeout, disconnecting.
+1709996965: New connection from 192.168.108.30:62595 on port 1883.
+1709996965: New client connected from 192.168.108.30:62595 as Arduino-00000f0c (p2, c1, k60, u'user').
+1709997009: New connection from 192.168.108.30:49607 on port 1883.
+1709997009: New client connected from 192.168.108.30:49607 as Arduino-00000e6c (p2, c1, k60, u'user').
+1709997095: Client Arduino-00000f0c has exceeded timeout, disconnecting.
+1709997099: New connection from 192.168.108.30:53249 on port 1883.
+1709997099: New client connected from 192.168.108.30:53249 as Arduino-00001dff (p2, c1, k60, u'user').
+1709997155: Client Arduino-00000e6c has exceeded timeout, disconnecting.
+1709997200: New connection from 192.168.108.30:51596 on port 1883.
+1709997200: New client connected from 192.168.108.30:51596 as Arduino-00000ab4 (p2, c1, k60, u'user').
+1709997245: Client Arduino-00001dff has exceeded timeout, disconnecting.
+1709997284: Client Arduino-00000ab4 disconnected: No error information.
+1710000401: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710000405: New connection from 192.168.108.30:50940 on port 1883.
+1710000405: New client connected from 192.168.108.30:50940 as Arduino-00001937 (p2, c1, k60, u'user').
+1710000409: New connection from 192.168.108.30:56415 on port 1883.
+1710000409: New client connected from 192.168.108.30:56415 as Arduino-00000c14 (p2, c1, k60, u'user').
+1710000413: New connection from 192.168.108.30:58902 on port 1883.
+1710000413: New client connected from 192.168.108.30:58902 as Arduino-00000d32 (p2, c1, k60, u'user').
+1710000417: New connection from 192.168.108.30:60316 on port 1883.
+1710000417: New client connected from 192.168.108.30:60316 as Arduino-00000c00 (p2, c1, k60, u'user').
+1710000421: New connection from 192.168.108.30:57461 on port 1883.
+1710000421: New client connected from 192.168.108.30:57461 as Arduino-00000e36 (p2, c1, k60, u'user').
+1710000426: New connection from 192.168.108.30:50635 on port 1883.
+1710000426: New client connected from 192.168.108.30:50635 as Arduino-00000f72 (p2, c1, k60, u'user').
+1710000430: New connection from 192.168.108.30:58480 on port 1883.
+1710000430: New client connected from 192.168.108.30:58480 as Arduino-00000d71 (p2, c1, k60, u'user').
+1710000435: New connection from 192.168.108.30:62256 on port 1883.
+1710000435: New client connected from 192.168.108.30:62256 as Arduino-00000e11 (p2, c1, k60, u'user').
+1710000439: New connection from 192.168.108.30:57124 on port 1883.
+1710000439: New client connected from 192.168.108.30:57124 as Arduino-00000dce (p2, c1, k60, u'user').
+1710000496: Client Arduino-00001937 has exceeded timeout, disconnecting.
+1710000502: Client Arduino-00000c14 has exceeded timeout, disconnecting.
+1710000508: Client Arduino-00000d32 has exceeded timeout, disconnecting.
+1710000508: Client Arduino-00000c00 has exceeded timeout, disconnecting.
+1710000514: Client Arduino-00000e36 has exceeded timeout, disconnecting.
+1710000520: Client Arduino-00000f72 has exceeded timeout, disconnecting.
+1710000520: Client Arduino-00000d71 has exceeded timeout, disconnecting.
+1710000524: New connection from 192.168.108.30:57429 on port 1883.
+1710000524: New client connected from 192.168.108.30:57429 as Arduino-00000b73 (p2, c1, k60, u'user').
+1710000526: Client Arduino-00000e11 has exceeded timeout, disconnecting.
+1710000532: Client Arduino-00000dce has exceeded timeout, disconnecting.
+1710000650: New connection from 192.168.108.30:55180 on port 1883.
+1710000650: New client connected from 192.168.108.30:55180 as Arduino-00000b90 (p2, c1, k60, u'user').
+1710000655: New connection from 192.168.108.30:62847 on port 1883.
+1710000655: New client connected from 192.168.108.30:62847 as Arduino-00001047 (p2, c1, k60, u'user').
+1710000660: New connection from 192.168.108.30:60027 on port 1883.
+1710000660: New client connected from 192.168.108.30:60027 as Arduino-00000db6 (p2, c1, k60, u'user').
+1710000664: New connection from 192.168.108.30:54619 on port 1883.
+1710000664: New client connected from 192.168.108.30:54619 as Arduino-00000dd7 (p2, c1, k60, u'user').
+1710000668: New connection from 192.168.108.30:53870 on port 1883.
+1710000668: New client connected from 192.168.108.30:53870 as Arduino-00000c46 (p2, c1, k60, u'user').
+1710000676: Client Arduino-00000b73 has exceeded timeout, disconnecting.
+1710000742: Client Arduino-00000b90 has exceeded timeout, disconnecting.
+1710000748: Client Arduino-00001047 has exceeded timeout, disconnecting.
+1710000754: Client Arduino-00000db6 has exceeded timeout, disconnecting.
+1710000754: Client Arduino-00000dd7 has exceeded timeout, disconnecting.
+1710000760: Client Arduino-00000c46 has exceeded timeout, disconnecting.
+1710001091: New connection from 192.168.108.30:52973 on port 1883.
+1710001091: New client connected from 192.168.108.30:52973 as Arduino-00000df1 (p2, c1, k60, u'user').
+1710001161: New connection from 192.168.108.30:49744 on port 1883.
+1710001161: New client connected from 192.168.108.30:49744 as Arduino-00000c93 (p2, c1, k60, u'user').
+1710001166: New connection from 192.168.108.30:53209 on port 1883.
+1710001166: New client connected from 192.168.108.30:53209 as Arduino-00000e01 (p2, c1, k60, u'user').
+1710001172: New connection from 192.168.108.30:57762 on port 1883.
+1710001172: New client connected from 192.168.108.30:57762 as Arduino-0000170f (p2, c1, k60, u'user').
+1710001177: New connection from 192.168.108.30:53420 on port 1883.
+1710001177: New client connected from 192.168.108.30:53420 as Arduino-00000d4c (p2, c1, k60, u'user').
+1710001186: Client Arduino-00000df1 has exceeded timeout, disconnecting.
+1710001252: New connection from 192.168.108.30:60895 on port 1883.
+1710001252: New client connected from 192.168.108.30:60895 as Arduino-00000adb (p2, c1, k60, u'user').
+1710001252: Client Arduino-00000c93 has exceeded timeout, disconnecting.
+1710001258: Client Arduino-00000e01 has exceeded timeout, disconnecting.
+1710001259: New connection from 192.168.108.30:50740 on port 1883.
+1710001259: New client connected from 192.168.108.30:50740 as Arduino-00000f20 (p2, c1, k60, u'user').
+1710001264: Client Arduino-0000170f has exceeded timeout, disconnecting.
+1710001265: New connection from 192.168.108.30:60913 on port 1883.
+1710001265: New client connected from 192.168.108.30:60913 as Arduino-00000add (p2, c1, k60, u'user').
+1710001270: Client Arduino-00000d4c has exceeded timeout, disconnecting.
+1710001271: New connection from 192.168.108.30:55524 on port 1883.
+1710001271: New client connected from 192.168.108.30:55524 as Arduino-00000d5e (p2, c1, k60, u'user').
+1710001276: New connection from 192.168.108.30:63181 on port 1883.
+1710001276: New client connected from 192.168.108.30:63181 as Arduino-00000b97 (p2, c1, k60, u'user').
+1710001293: New connection from 192.168.108.30:49617 on port 1883.
+1710001293: New client connected from 192.168.108.30:49617 as Arduino-00000c5b (p2, c1, k60, u'user').
+1710001298: New connection from 192.168.108.30:52885 on port 1883.
+1710001298: New client connected from 192.168.108.30:52885 as Arduino-00000b2a (p2, c1, k60, u'user').
+1710001342: Client Arduino-00000adb has exceeded timeout, disconnecting.
+1710001354: Client Arduino-00000f20 has exceeded timeout, disconnecting.
+1710001360: Client Arduino-00000add has exceeded timeout, disconnecting.
+1710001366: Client Arduino-00000d5e has exceeded timeout, disconnecting.
+1710001366: Client Arduino-00000b97 has exceeded timeout, disconnecting.
+1710001384: Client Arduino-00000c5b has exceeded timeout, disconnecting.
+1710001390: Client Arduino-00000b2a has exceeded timeout, disconnecting.
+1710001558: New connection from 192.168.108.30:61253 on port 1883.
+1710001558: New client connected from 192.168.108.30:61253 as Arduino-00000796 (p2, c1, k60, u'user').
+1710001571: New connection from 192.168.108.30:53759 on port 1883.
+1710001571: New client connected from 192.168.108.30:53759 as Arduino-00000bab (p2, c1, k60, u'user').
+1710001598: New connection from 192.168.108.30:56707 on port 1883.
+1710001598: New client connected from 192.168.108.30:56707 as Arduino-00000c28 (p2, c1, k60, u'user').
+1710001654: Client Arduino-00000796 has exceeded timeout, disconnecting.
+1710001666: Client Arduino-00000bab has exceeded timeout, disconnecting.
+1710001688: New connection from 192.168.108.30:51928 on port 1883.
+1710001688: New client connected from 192.168.108.30:51928 as Arduino-0000163a (p2, c1, k60, u'user').
+1710001738: Client Arduino-00000c28 has exceeded timeout, disconnecting.
+1710002024: New connection from 192.168.108.30:54529 on port 1883.
+1710002024: New client connected from 192.168.108.30:54529 as Arduino-000008da (p2, c1, k60, u'user').
+1710002077: New connection from 192.168.108.30:58473 on port 1883.
+1710002077: New client connected from 192.168.108.30:58473 as Arduino-00000bd7 (p2, c1, k60, u'user').
+1710002110: Client Arduino-0000163a has exceeded timeout, disconnecting.
+1710002116: Client Arduino-000008da has exceeded timeout, disconnecting.
+1710002156: New connection from 192.168.108.30:51132 on port 1883.
+1710002156: New client connected from 192.168.108.30:51132 as Arduino-0000102c (p2, c1, k60, u'user').
+1710002201: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710002218: Client Arduino-00000bd7 has exceeded timeout, disconnecting.
+1710002280: New connection from 192.168.108.30:49645 on port 1883.
+1710002280: New client connected from 192.168.108.30:49645 as Arduino-00000d1d (p2, c1, k60, u'user').
+1710002328: New connection from 192.168.108.30:57846 on port 1883.
+1710002328: New client connected from 192.168.108.30:57846 as Arduino-00000bde (p2, c1, k60, u'user').
+1710002344: Client Arduino-0000102c has exceeded timeout, disconnecting.
+1710002416: Client Arduino-00000d1d has exceeded timeout, disconnecting.
+1710002447: New connection from 192.168.108.30:64961 on port 1883.
+1710002447: New client connected from 192.168.108.30:64961 as Arduino-00000d93 (p2, c1, k60, u'user').
+1710002457: New connection from 192.168.108.30:59326 on port 1883.
+1710002457: New client connected from 192.168.108.30:59326 as Arduino-00000d03 (p2, c1, k60, u'user').
+1710002512: Client Arduino-00000bde has exceeded timeout, disconnecting.
+1710002548: Client Arduino-00000d93 has exceeded timeout, disconnecting.
+1710002565: New connection from 192.168.108.30:51929 on port 1883.
+1710002565: New client connected from 192.168.108.30:51929 as Arduino-00000ea4 (p2, c1, k60, u'user').
+1710002579: New connection from 192.168.108.30:55424 on port 1883.
+1710002579: New client connected from 192.168.108.30:55424 as Arduino-000008b4 (p2, c1, k60, u'user').
+1710002656: Client Arduino-00000d03 has exceeded timeout, disconnecting.
+1710002659: New connection from 192.168.108.30:61368 on port 1883.
+1710002659: New client connected from 192.168.108.30:61368 as Arduino-00000ebf (p2, c1, k60, u'user').
+1710002662: Client Arduino-00000ea4 has exceeded timeout, disconnecting.
+1710002686: New connection from 192.168.108.30:53183 on port 1883.
+1710002686: New client connected from 192.168.108.30:53183 as Arduino-00001ead (p2, c1, k60, u'user').
+1710002722: Client Arduino-000008b4 has exceeded timeout, disconnecting.
+1710002770: Client Arduino-00000ebf has exceeded timeout, disconnecting.
+1710002800: Client Arduino-00001ead has exceeded timeout, disconnecting.
+1710002949: New connection from 192.168.108.30:55665 on port 1883.
+1710002949: New client connected from 192.168.108.30:55665 as Arduino-00000e95 (p2, c1, k60, u'user').
+1710003280: Client Arduino-00000e95 has exceeded timeout, disconnecting.
+1710003675: New connection from 192.168.108.30:56244 on port 1883.
+1710003675: New client connected from 192.168.108.30:56244 as Arduino-00000906 (p2, c1, k60, u'user').
+1710003732: New connection from 192.168.108.30:62541 on port 1883.
+1710003732: New client connected from 192.168.108.30:62541 as Arduino-00000917 (p2, c1, k60, u'user').
+1710003766: Client Arduino-00000906 has exceeded timeout, disconnecting.
+1710004728: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710004728: Client Arduino-00000917 has exceeded timeout, disconnecting.
+1710004735: mosquitto version 2.0.18 terminating
+1710004735: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710107821: mosquitto version 2.0.18 starting
+1710107821: Config loaded from /mosquitto/config/mosquitto.conf.
+1710107821: Opening ipv4 listen socket on port 1883.
+1710107821: mosquitto version 2.0.18 running
+1710104512: mosquitto version 2.0.18 starting
+1710104512: Config loaded from /mosquitto/config/mosquitto.conf.
+1710104512: Opening ipv4 listen socket on port 1883.
+1710104512: mosquitto version 2.0.18 running
+1710104949: New connection from 192.168.108.30:61297 on port 1883.
+1710104949: New client connected from 192.168.108.30:61297 as Arduino-00000c3d (p2, c1, k60, u'user').
+1710104972: New connection from 192.168.108.30:65200 on port 1883.
+1710104972: New client connected from 192.168.108.30:65200 as Arduino-00000c11 (p2, c1, k60, u'user').
+1710105051: Client Arduino-00000c3d has exceeded timeout, disconnecting.
+1710105272: New connection from 127.0.0.1:36141 on port 1883.
+1710105272: New client connected from 127.0.0.1:36141 as auto-279F5B56-5AF3-3DA8-F98F-6623E789A9B9 (p2, c1, k60).
+1710105279: Client Arduino-00000c11 has exceeded timeout, disconnecting.
+1710105287: New connection from 192.168.108.30:62357 on port 1883.
+1710105287: New client connected from 192.168.108.30:62357 as Arduino-000006d0 (p2, c1, k60, u'user').
+1710105304: Client auto-279F5B56-5AF3-3DA8-F98F-6623E789A9B9 closed its connection.
+1710105305: New connection from 127.0.0.1:44879 on port 1883.
+1710105305: New client connected from 127.0.0.1:44879 as auto-B8FEF5D8-01CB-4E6B-8624-87E4ADE012D3 (p2, c1, k60).
+1710105321: Client auto-B8FEF5D8-01CB-4E6B-8624-87E4ADE012D3 closed its connection.
+1710105322: New connection from 127.0.0.1:35837 on port 1883.
+1710105322: New client connected from 127.0.0.1:35837 as auto-4D078A53-C196-5B2B-D2DB-289F9E71D66F (p2, c1, k60).
+1710105334: Client auto-4D078A53-C196-5B2B-D2DB-289F9E71D66F closed its connection.
+1710105345: New connection from 127.0.0.1:39487 on port 1883.
+1710105345: New client connected from 127.0.0.1:39487 as auto-AE415647-A013-9EC0-01DA-A9B0520596EB (p2, c1, k60).
+1710105362: Client auto-AE415647-A013-9EC0-01DA-A9B0520596EB closed its connection.
+1710105777: Client Arduino-000006d0 has exceeded timeout, disconnecting.
+1710106312: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710106787: New connection from 127.0.0.1:48833 on port 1883.
+1710106787: New client connected from 127.0.0.1:48833 as auto-3EDD4B3F-167E-1A51-F3A1-62A65DA60B3B (p2, c1, k60).
+1710106797: New connection from 192.168.108.30:52518 on port 1883.
+1710106797: New client connected from 192.168.108.30:52518 as Arduino-000008ae (p2, c1, k60, u'user').
+1710106943: Client auto-3EDD4B3F-167E-1A51-F3A1-62A65DA60B3B closed its connection.
+1710106987: New connection from 127.0.0.1:59687 on port 1883.
+1710106987: New client connected from 127.0.0.1:59687 as auto-3BE6087D-9861-986F-174F-7E216ABDC11A (p2, c1, k60).
+1710106988: New connection from 192.168.108.30:56592 on port 1883.
+1710106988: New client connected from 192.168.108.30:56592 as Arduino-00000856 (p2, c1, k60, u'user').
+1710107031: Client Arduino-000008ae has exceeded timeout, disconnecting.
+1710107079: Client auto-3BE6087D-9861-986F-174F-7E216ABDC11A has exceeded timeout, disconnecting.
+1710107294: mosquitto version 2.0.18 terminating
+1710107294: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710158804: mosquitto version 2.0.18 starting
+1710158804: Config loaded from /mosquitto/config/mosquitto.conf.
+1710158804: Opening ipv4 listen socket on port 1883.
+1710158804: mosquitto version 2.0.18 running
+1710158810: New connection from 192.168.108.30:53817 on port 1883.
+1710158810: New client connected from 192.168.108.30:53817 as Arduino-00000c5a (p2, c1, k60, u'user').
+1710159201: Client Arduino-00000c5a has exceeded timeout, disconnecting.
+1710159246: mosquitto version 2.0.18 terminating
+1710159246: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710159247: mosquitto version 2.0.18 starting
+1710159247: Config loaded from /mosquitto/config/mosquitto.conf.
+1710159247: Opening ipv4 listen socket on port 1883.
+1710159247: mosquitto version 2.0.18 running
+1710159306: New connection from 192.168.108.30:63144 on port 1883.
+1710159306: New client connected from 192.168.108.30:63144 as Arduino-00000d16 (p2, c1, k60, u'user').
+1710159326: New connection from 192.168.108.30:49684 on port 1883.
+1710159326: New client connected from 192.168.108.30:49684 as Arduino-00000e0c (p2, c1, k60, u'user').
+1710159345: New connection from 192.168.108.30:64742 on port 1883.
+1710159345: New client connected from 192.168.108.30:64742 as Arduino-00000e56 (p2, c1, k60, u'user').
+1710159403: mosquitto version 2.0.18 starting
+1710159403: Config loaded from /mosquitto/config/mosquitto.conf.
+1710159403: Opening ipv4 listen socket on port 1883.
+1710159403: mosquitto version 2.0.18 running
+1710159620: New connection from 127.0.0.1:38323 on port 1883.
+1710159620: New client connected from 127.0.0.1:38323 as auto-00C8E508-1C53-5CE6-B9A1-7E3D66B2AF62 (p2, c1, k60).
+1710159644: New connection from 127.0.0.1:52759 on port 1883.
+1710159644: New client connected from 127.0.0.1:52759 as auto-E1C3989A-D618-C345-B775-F43D5AD0614B (p2, c1, k60).
+1710159715: Client auto-00C8E508-1C53-5CE6-B9A1-7E3D66B2AF62 has exceeded timeout, disconnecting.
+1710159737: mosquitto version 2.0.18 starting
+1710159737: Config loaded from /mosquitto/config/mosquitto.conf.
+1710159737: Opening ipv4 listen socket on port 1883.
+1710159737: mosquitto version 2.0.18 running
+1710160009: New connection from 192.168.108.30:50996 on port 1883.
+1710160009: New client connected from 192.168.108.30:50996 as Arduino-00000c64 (p2, c1, k60, u'user').
+1710160022: New connection from 127.0.0.1:47269 on port 1883.
+1710160022: New client connected from 127.0.0.1:47269 as auto-15194606-97EF-94F9-A0D5-1080DB743246 (p2, c1, k60).
+1710160076: New connection from 127.0.0.1:58755 on port 1883.
+1710160076: New client connected from 127.0.0.1:58755 as auto-9F2D10D6-D0C0-D2F4-F851-41FE7A3BC510 (p2, c1, k60).
+1710160076: Client auto-9F2D10D6-D0C0-D2F4-F851-41FE7A3BC510 closed its connection.
+1710160087: New connection from 127.0.0.1:48345 on port 1883.
+1710160087: New client connected from 127.0.0.1:48345 as auto-491A4CC1-FDB1-C83D-F385-3970983599CE (p2, c1, k60).
+1710160087: Client auto-491A4CC1-FDB1-C83D-F385-3970983599CE closed its connection.
+1710160088: New connection from 192.168.108.30:51118 on port 1883.
+1710160088: New client connected from 192.168.108.30:51118 as Arduino-00000d49 (p2, c1, k60, u'user').
+1710160102: New connection from 127.0.0.1:38567 on port 1883.
+1710160102: New client connected from 127.0.0.1:38567 as auto-6F222A10-BA80-62DB-7DC2-ABF8FEC6D1A2 (p2, c1, k60).
+1710160109: Client auto-6F222A10-BA80-62DB-7DC2-ABF8FEC6D1A2 closed its connection.
+1710160115: Client auto-15194606-97EF-94F9-A0D5-1080DB743246 has exceeded timeout, disconnecting.
+1710160123: New connection from 127.0.0.1:58437 on port 1883.
+1710160123: New client connected from 127.0.0.1:58437 as auto-240F67FE-4CB7-DD2F-7989-15F9E4F6609C (p2, c1, k60).
+1710160132: Client auto-240F67FE-4CB7-DD2F-7989-15F9E4F6609C closed its connection.
+1710160181: Client Arduino-00000c64 has exceeded timeout, disconnecting.
+1710160608: New connection from 127.0.0.1:57671 on port 1883.
+1710160608: New client connected from 127.0.0.1:57671 as auto-6DB38C70-A4A5-0E27-3E75-D3991B8FB501 (p2, c1, k60).
+1710160618: Client auto-6DB38C70-A4A5-0E27-3E75-D3991B8FB501 closed its connection.
+1710160620: New connection from 127.0.0.1:47991 on port 1883.
+1710160620: New client connected from 127.0.0.1:47991 as auto-DBA5D0CC-ED45-0A90-F317-A25E9C16DD0A (p2, c1, k60).
+1710160671: Client auto-DBA5D0CC-ED45-0A90-F317-A25E9C16DD0A closed its connection.
+1710160673: New connection from 127.0.0.1:51027 on port 1883.
+1710160673: New client connected from 127.0.0.1:51027 as auto-7A15D9BB-0047-0364-13AC-99C4E3E582D8 (p2, c1, k60).
+1710160693: Client Arduino-00000d49 disconnected: No error information.
+1710160707: Client auto-7A15D9BB-0047-0364-13AC-99C4E3E582D8 closed its connection.
+1710160709: New connection from 127.0.0.1:35487 on port 1883.
+1710160709: New client connected from 127.0.0.1:35487 as auto-1CD1A209-EED9-5451-7D42-566289F12CF2 (p2, c1, k60).
+1710160714: Client auto-1CD1A209-EED9-5451-7D42-566289F12CF2 closed its connection.
+1710160721: New connection from 192.168.108.30:53061 on port 1883.
+1710160721: New client connected from 192.168.108.30:53061 as Arduino-000012fd (p2, c1, k60, u'user').
+1710160724: New connection from 127.0.0.1:43295 on port 1883.
+1710160724: New client connected from 127.0.0.1:43295 as auto-33D82C24-F02F-D0F9-2F98-11AC92A63846 (p2, c1, k60).
+1710160735: New connection from 192.168.108.30:58891 on port 1883.
+1710160735: New client connected from 192.168.108.30:58891 as Arduino-00000d49 (p2, c1, k60, u'user').
+1710160785: Client auto-33D82C24-F02F-D0F9-2F98-11AC92A63846 closed its connection.
+1710160789: New connection from 127.0.0.1:33273 on port 1883.
+1710160789: New client connected from 127.0.0.1:33273 as auto-FABC0A72-E10F-D11F-67A7-B317DA8FF694 (p2, c1, k60).
+1710160823: Client Arduino-000012fd has exceeded timeout, disconnecting.
+1710160832: Client auto-FABC0A72-E10F-D11F-67A7-B317DA8FF694 closed its connection.
+1710160835: New connection from 127.0.0.1:50723 on port 1883.
+1710160835: New client connected from 127.0.0.1:50723 as auto-47809047-CCA7-C118-5A37-45E441F222EA (p2, c1, k60).
+1710160865: Client auto-47809047-CCA7-C118-5A37-45E441F222EA closed its connection.
+1710160866: New connection from 127.0.0.1:60393 on port 1883.
+1710160866: New client connected from 127.0.0.1:60393 as auto-07A20507-2EF9-F965-A46F-6973E5BB9CA5 (p2, c1, k60).
+1710160870: Client auto-07A20507-2EF9-F965-A46F-6973E5BB9CA5 closed its connection.
+1710160871: New connection from 127.0.0.1:35309 on port 1883.
+1710160871: New client connected from 127.0.0.1:35309 as auto-C4E69A88-8D76-7E0F-02EC-51EC288C636A (p2, c1, k60).
+1710160876: Client auto-C4E69A88-8D76-7E0F-02EC-51EC288C636A closed its connection.
+1710160931: Client Arduino-00000d49 has exceeded timeout, disconnecting.
+1710160990: New connection from 192.168.108.30:65328 on port 1883.
+1710160990: New client connected from 192.168.108.30:65328 as Arduino-000006ba (p2, c1, k60, u'user').
+1710160996: New connection from 127.0.0.1:45819 on port 1883.
+1710160996: New client connected from 127.0.0.1:45819 as auto-B36875A1-70C7-8C8C-B8BC-CEF983AE070F (p2, c1, k60).
+1710161011: Client auto-B36875A1-70C7-8C8C-B8BC-CEF983AE070F closed its connection.
+1710161013: New connection from 127.0.0.1:38251 on port 1883.
+1710161013: New client connected from 127.0.0.1:38251 as auto-75B2DDF3-7936-2AA6-5577-4DAEE86B1896 (p2, c1, k60).
+1710161015: Client auto-75B2DDF3-7936-2AA6-5577-4DAEE86B1896 closed its connection.
+1710161017: New connection from 127.0.0.1:57185 on port 1883.
+1710161017: New client connected from 127.0.0.1:57185 as auto-6A024B1F-9662-2F48-20BB-F6C94413A02E (p2, c1, k60).
+1710161018: Client auto-6A024B1F-9662-2F48-20BB-F6C94413A02E closed its connection.
+1710161022: New connection from 192.168.108.30:56202 on port 1883.
+1710161022: New client connected from 192.168.108.30:56202 as Arduino-000006fb (p2, c1, k60, u'user').
+1710161022: New connection from 127.0.0.1:42627 on port 1883.
+1710161022: New client connected from 127.0.0.1:42627 as auto-AB209C10-67E6-6F3D-8424-780793A930F3 (p2, c1, k60).
+1710161039: New connection from 192.168.108.30:58511 on port 1883.
+1710161039: New client connected from 192.168.108.30:58511 as Arduino-00000dc9 (p2, c1, k60, u'user').
+1710161066: Client auto-AB209C10-67E6-6F3D-8424-780793A930F3 closed its connection.
+1710161068: New connection from 127.0.0.1:60319 on port 1883.
+1710161068: New client connected from 127.0.0.1:60319 as auto-017BB84F-574D-410A-90B5-9F33B9DA1459 (p2, c1, k60).
+1710161070: Client auto-017BB84F-574D-410A-90B5-9F33B9DA1459 closed its connection.
+1710161072: New connection from 127.0.0.1:42331 on port 1883.
+1710161072: New client connected from 127.0.0.1:42331 as auto-65DF945C-2C92-F71E-7FCC-E0641E64855D (p2, c1, k60).
+1710161073: Client auto-65DF945C-2C92-F71E-7FCC-E0641E64855D closed its connection.
+1710161081: New connection from 192.168.108.30:56897 on port 1883.
+1710161081: New client connected from 192.168.108.30:56897 as Arduino-00000bf3 (p2, c1, k60, u'user').
+1710161088: New connection from 127.0.0.1:46443 on port 1883.
+1710161088: New client connected from 127.0.0.1:46443 as auto-E43A980B-59F3-ADD0-B487-86E68B5A8785 (p2, c1, k60).
+1710161093: Client Arduino-000006ba has exceeded timeout, disconnecting.
+1710161123: Client Arduino-000006fb has exceeded timeout, disconnecting.
+1710161135: Client Arduino-00000dc9 has exceeded timeout, disconnecting.
+1710161136: New connection from 192.168.108.30:54204 on port 1883.
+1710161136: New client connected from 192.168.108.30:54204 as Arduino-00000f4e (p2, c1, k60, u'user').
+1710161170: Client auto-E43A980B-59F3-ADD0-B487-86E68B5A8785 closed its connection.
+1710161219: Client Arduino-00000bf3 has exceeded timeout, disconnecting.
+1710161225: New connection from 127.0.0.1:56645 on port 1883.
+1710161225: New client connected from 127.0.0.1:56645 as auto-8C87915F-1E85-2563-7B33-DE09A96C9241 (p2, c1, k60).
+1710161235: Client auto-8C87915F-1E85-2563-7B33-DE09A96C9241 closed its connection.
+1710161286: New connection from 127.0.0.1:39221 on port 1883.
+1710161286: New client connected from 127.0.0.1:39221 as auto-039F2EFB-BCA6-CADF-1535-334881BC95B6 (p2, c1, k60).
+1710161287: Client auto-039F2EFB-BCA6-CADF-1535-334881BC95B6 closed its connection.
+1710161483: Client Arduino-00000f4e has exceeded timeout, disconnecting.
+1710161538: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710161788: mosquitto version 2.0.18 terminating
+1710161788: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710161815: mosquitto version 2.0.18 starting
+1710161815: Config loaded from /mosquitto/config/mosquitto.conf.
+1710161815: Opening ipv4 listen socket on port 1883.
+1710161815: mosquitto version 2.0.18 running
+1710162067: mosquitto version 2.0.18 terminating
+1710162067: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710162092: mosquitto version 2.0.18 starting
+1710162092: Config loaded from /mosquitto/config/mosquitto.conf.
+1710162092: Opening ipv4 listen socket on port 1883.
+1710162092: mosquitto version 2.0.18 running
+1710162650: mosquitto version 2.0.18 terminating
+1710162650: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710162735: mosquitto version 2.0.18 starting
+1710162735: Config loaded from /mosquitto/config/mosquitto.conf.
+1710162735: Opening ipv4 listen socket on port 1883.
+1710162735: mosquitto version 2.0.18 running
+1710162778: New connection from 127.0.0.1:39041 on port 1883.
+1710162778: New client connected from 127.0.0.1:39041 as auto-419E9218-668B-FDD2-7BF8-D7CC9BF9A314 (p2, c1, k60).
+1710162783: Client auto-419E9218-668B-FDD2-7BF8-D7CC9BF9A314 closed its connection.
+1710162785: New connection from 127.0.0.1:45987 on port 1883.
+1710162785: New client connected from 127.0.0.1:45987 as auto-D62E2F20-2536-C737-ADBF-36EFFD816AB1 (p2, c1, k60).
+1710162800: Client auto-D62E2F20-2536-C737-ADBF-36EFFD816AB1 closed its connection.
+1710162812: New connection from 127.0.0.1:35603 on port 1883.
+1710162812: New client connected from 127.0.0.1:35603 as auto-EA231A0E-9F9D-2AA4-E075-953FE5F5BAAB (p2, c1, k60).
+1710162818: Client auto-EA231A0E-9F9D-2AA4-E075-953FE5F5BAAB closed its connection.
+1710162819: New connection from 192.168.108.30:51011 on port 1883.
+1710162819: New client connected from 192.168.108.30:51011 as Arduino-00000c30 (p2, c1, k60, u'user').
+1710162823: New connection from 192.168.108.30:64370 on port 1883.
+1710162823: New client connected from 192.168.108.30:64370 as Arduino-00000c2b (p2, c1, k60, u'user').
+1710162824: New connection from 127.0.0.1:44753 on port 1883.
+1710162824: New client connected from 127.0.0.1:44753 as auto-2FCDED5C-45F2-435E-53DC-7BE4776210C6 (p2, c1, k60).
+1710162887: Client auto-2FCDED5C-45F2-435E-53DC-7BE4776210C6 closed its connection.
+1710162895: New connection from 127.0.0.1:46985 on port 1883.
+1710162895: New client connected from 127.0.0.1:46985 as auto-3BF1A3BF-584D-C8AC-9543-C8618B067EC8 (p2, c1, k60).
+1710162914: Client Arduino-00000c30 has exceeded timeout, disconnecting.
+1710162915: Client auto-3BF1A3BF-584D-C8AC-9543-C8618B067EC8 closed its connection.
+1710162916: New connection from 127.0.0.1:51225 on port 1883.
+1710162916: New client connected from 127.0.0.1:51225 as auto-F095D2F2-4EA7-71BD-24F3-BD9E0ED7A3E4 (p2, c1, k60).
+1710162937: Client auto-F095D2F2-4EA7-71BD-24F3-BD9E0ED7A3E4 closed its connection.
+1710162938: New connection from 127.0.0.1:53629 on port 1883.
+1710162938: New client connected from 127.0.0.1:53629 as auto-BFAC4083-874D-D54A-6A8A-15A9790C1CE3 (p2, c1, k60).
+1710162944: Client auto-BFAC4083-874D-D54A-6A8A-15A9790C1CE3 closed its connection.
+1710162945: New connection from 127.0.0.1:45267 on port 1883.
+1710162945: New client connected from 127.0.0.1:45267 as auto-A49AF5A1-E515-8A1C-5589-D77868A0F282 (p2, c1, k60).
+1710163002: Client auto-A49AF5A1-E515-8A1C-5589-D77868A0F282 closed its connection.
+1710163173: New connection from 127.0.0.1:40897 on port 1883.
+1710163173: New client connected from 127.0.0.1:40897 as auto-2563B32F-6190-F3E6-8949-EC78EFD32519 (p2, c1, k60).
+1710163477: mosquitto version 2.0.18 starting
+1710163477: Config loaded from /mosquitto/config/mosquitto.conf.
+1710163477: Opening ipv4 listen socket on port 1883.
+1710163477: mosquitto version 2.0.18 running
+1710163836: mosquitto version 2.0.18 starting
+1710163836: Config loaded from /mosquitto/config/mosquitto.conf.
+1710163836: Opening ipv4 listen socket on port 1883.
+1710163836: mosquitto version 2.0.18 running
+1710164421: New connection from 127.0.0.1:60447 on port 1883.
+1710164421: New client connected from 127.0.0.1:60447 as auto-C81E82FA-1102-6C54-C4B9-D4FF0D56D1D7 (p2, c1, k60).
+1710164425: Client auto-C81E82FA-1102-6C54-C4B9-D4FF0D56D1D7 closed its connection.
+1710164439: New connection from 127.0.0.1:43369 on port 1883.
+1710164439: New client connected from 127.0.0.1:43369 as auto-FA8D1FD1-8C17-945E-4BAF-8D219A54DFB7 (p2, c1, k60).
+1710164444: Client auto-FA8D1FD1-8C17-945E-4BAF-8D219A54DFB7 closed its connection.
+1710164460: New connection from 192.168.108.30:59692 on port 1883.
+1710164460: New client connected from 192.168.108.30:59692 as Arduino-00000aae (p2, c1, k60, u'user').
+1710164463: New connection from 127.0.0.1:35523 on port 1883.
+1710164463: New client connected from 127.0.0.1:35523 as auto-41D8730F-5BD5-619A-2143-8685267758FA (p2, c1, k60).
+1710164488: Client auto-41D8730F-5BD5-619A-2143-8685267758FA closed its connection.
+1710164490: New connection from 127.0.0.1:60213 on port 1883.
+1710164490: New client connected from 127.0.0.1:60213 as auto-30DFE13A-D5F8-C8CB-713A-EEB5D2F854E8 (p2, c1, k60).
+1710164490: New connection from 192.168.108.30:59200 on port 1883.
+1710164490: New client connected from 192.168.108.30:59200 as Arduino-00000cf7 (p2, c1, k60, u'user').
+1710164493: Client auto-30DFE13A-D5F8-C8CB-713A-EEB5D2F854E8 closed its connection.
+1710164502: New connection from 127.0.0.1:57165 on port 1883.
+1710164502: New client connected from 127.0.0.1:57165 as auto-E180EA68-929D-1D80-999B-A01842B4A588 (p2, c1, k60).
+1710164573: Client Arduino-00000aae has exceeded timeout, disconnecting.
+1710164651: Client Arduino-00000cf7 has exceeded timeout, disconnecting.
+1710164693: Client auto-E180EA68-929D-1D80-999B-A01842B4A588 closed its connection.
+1710164716: New connection from 127.0.0.1:37253 on port 1883.
+1710164716: New client connected from 127.0.0.1:37253 as auto-ABA1031C-B8EF-5A5B-0489-D183D752D8C5 (p2, c1, k60).
+1710164717: Client auto-ABA1031C-B8EF-5A5B-0489-D183D752D8C5 closed its connection.
+1710164779: New connection from 127.0.0.1:51987 on port 1883.
+1710164779: New client connected from 127.0.0.1:51987 as auto-D2BE4962-4D2A-DF61-0FCD-0E1CA09A6C20 (p2, c1, k60).
+1710164801: Client auto-D2BE4962-4D2A-DF61-0FCD-0E1CA09A6C20 closed its connection.
+1710165221: New connection from 172.18.0.1:42722 on port 1883.
+1710165221: New client connected from 172.18.0.1:42722 as auto-8CC43413-738E-6925-DC8A-E5254D48B83A (p2, c1, k60).
+1710165231: New connection from 172.18.0.1:49136 on port 1883.
+1710165231: New client connected from 172.18.0.1:49136 as auto-F616E001-5869-E145-C665-C9B88EC06F22 (p2, c1, k60).
+1710165231: Client auto-F616E001-5869-E145-C665-C9B88EC06F22 disconnected.
+1710165233: Client auto-8CC43413-738E-6925-DC8A-E5254D48B83A disconnected.
+1710165636: Saving in-memory database to /mosquitto/data//mosquitto.db.
