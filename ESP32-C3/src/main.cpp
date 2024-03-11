@@ -9,7 +9,7 @@
 #include <WiFi.h>
 #include "LowPassFilter.h"
 
-bool debug = true;
+bool debug = false;
 
 WiFiClient wifiClient;
 MqttClient mqtt(wifiClient);
@@ -23,9 +23,9 @@ char topic_dataMadgwick[] = "AHRS/data_Madgwick";
 char topic_dataMahony[] = "AHRS/data_dataMahony";
 
 void sendMqttMsg(String to_print, String topic, MqttClient& mqtt, bool debug){
-    // mqtt.beginMessage(topic);
-    // mqtt.print(to_print);
-    // mqtt.endMessage();
+    mqtt.beginMessage(topic);
+    mqtt.print(to_print);
+    mqtt.endMessage();
     if(debug){
         Serial.println(String(to_print + " : to : " + String(topic)));
     }
@@ -101,7 +101,9 @@ MeasurementData update_measurements(){
   data.mag_z = data.mag_z * 8;
 
   data.mag_x = -data.mag_x;
+  // data.mag_x = data.mag_x;
   data.mag_y = data.mag_y;
+  // data.mag_z = data.mag_z;
   data.mag_z = -data.mag_z;
   MeasurementData temp;
   filterData(data, temp);
@@ -168,7 +170,7 @@ void setup() {
   Serial.begin(115200);
 
 
-  IMU.init(AFS_8G, GFS_2000DPS, AODR_200Hz, GODR_200Hz);
+  IMU.init(AFS_8G, GFS_2000DPS, AODR_100Hz, GODR_100Hz);
   IMU_calib();
   for (int filter_id =0; filter_id< 6;filter_id++){
     filters[filter_id] = new LowPassFilter(a_coeff,b_coeff);
@@ -177,36 +179,35 @@ void setup() {
   MAG.begin();
   MAG.softReset();
   MAG.setFilterBandwidth(100);
-  MAG.setContinuousModeFrequency(200);
+  MAG.setContinuousModeFrequency(100);
   MAG.enableContinuousMode();
 
 
-	// connect to wifi
-	// Serial.print("Connecting to WiFi");
-	// WiFi.begin(WIFI_SSID, WIFI_PSWD);
-	// while (WiFi.status() != WL_CONNECTED) {
-	// 	delay(1000);
-	// 	Serial.print(".");
-  // 	}
+	Serial.print("Connecting to WiFi");
+	WiFi.begin(WIFI_SSID, WIFI_PSWD);
+	while (WiFi.status() != WL_CONNECTED) {
+		delay(1000);
+		Serial.print(".");
+  	}
 
-	// Serial.println("Connecting to MQTT host");
-	// mqtt.setUsernamePassword(
-	// 	MQTT_USER,
-	// 	MQTT_PSWD
-	// );
-	// if (!mqtt.connect(MQTT_BROKER_IP, MQTT_BROKER_PORT)) {
-	// 	Serial.print("MQTT connection failed! Error code = ");
-	// 	Serial.println(mqtt.connectError());
-	// 	while (1);
-  // 	}
-	// Serial.println("MQTT connected");
-
-
-  MadgwickFilter.begin(200);
-  MahonyFilter.begin(200);
+	Serial.println("Connecting to MQTT host");
+	mqtt.setUsernamePassword(
+		MQTT_USER,
+		MQTT_PSWD
+	);
+	if (!mqtt.connect(MQTT_BROKER_IP, MQTT_BROKER_PORT)) {
+		Serial.print("MQTT connection failed! Error code = ");
+		Serial.println(mqtt.connectError());
+		while (1);
+  }
+	Serial.println("MQTT connected");
 
 
-  LoopTime = 1000000 / 200;
+  MadgwickFilter.begin(100);
+  MahonyFilter.begin(100);
+
+
+  LoopTime = 1000000 / 100;
 }
  
 unsigned long currentTime;
@@ -218,27 +219,28 @@ void loop() {
   currentTime = micros();
 	dt = currentTime - prevTime; 
   if (dt >= LoopTime) {
-    // Serial.println(dt);
+    Serial.println(dt);
     prevTime = currentTime;
 
     data = update_measurements();
     MadgwickFilter.update(data.gyroscope_x, data.gyroscope_y, data.gyroscope_z, data.accelerometer_x, data.accelerometer_y, data.accelerometer_z, data.mag_x, data.mag_y, data.mag_z);
+    // MadgwickFilter.updateIMU(data.gyroscope_x, data.gyroscope_y, data.gyroscope_z, data.accelerometer_x, data.accelerometer_y, data.accelerometer_z);
 
     MadgwickResult.roll = MadgwickFilter.getRoll();
     MadgwickResult.pitch = MadgwickFilter.getPitch();
     MadgwickResult.yaw = MadgwickFilter.getYaw();
 
-    MahonyFilter.update(data.gyroscope_x, data.gyroscope_y, data.gyroscope_z, data.accelerometer_x, data.accelerometer_y, data.accelerometer_z, data.mag_x, data.mag_y, data.mag_z);
+    // MahonyFilter.update(data.gyroscope_x, data.gyroscope_y, data.gyroscope_z, data.accelerometer_x, data.accelerometer_y, data.accelerometer_z, data.mag_x, data.mag_y, data.mag_z);
 
-    MahonyResult.roll = MahonyFilter.getRoll();
-    MahonyResult.pitch = MahonyFilter.getPitch();
-    MahonyResult.yaw = MahonyFilter.getYaw();
+    // MahonyResult.roll = MahonyFilter.getRoll();
+    // MahonyResult.pitch = MahonyFilter.getPitch();
+    // MahonyResult.yaw = MahonyFilter.getYaw();
 
     String data_to_print;
     data_to_print = String(MadgwickResult.roll)+';'+String(MadgwickResult.pitch)+';'+String(MadgwickResult.yaw);
-    // sendMqttMsg(data_to_print, topic_dataMadgwick, mqtt, debug);
+    sendMqttMsg(data_to_print, topic_dataMadgwick, mqtt, debug);
 
     data_to_print = String(MahonyResult.roll)+';'+String(MahonyResult.pitch)+';'+String(MahonyResult.yaw);
-    sendMqttMsg(data_to_print, topic_dataMahony, mqtt, debug);
+    // sendMqttMsg(data_to_print, topic_dataMahony, mqtt, debug);
   }
 }
