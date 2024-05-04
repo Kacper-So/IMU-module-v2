@@ -9,7 +9,7 @@
 #include <WiFi.h>
 #include "LowPassFilter.h"
 
-bool debug = false;
+bool debug = true;
 
 WiFiClient wifiClient;
 MqttClient mqtt(wifiClient);
@@ -20,6 +20,7 @@ Madgwick MadgwickFilter;
 Mahony MahonyFilter;
 
 char topic_dataMadgwick[] = "AHRS/data_Madgwick";
+char topic_rawdata[] = "rawdata";
 char topic_dataMahony[] = "AHRS/data_dataMahony";
 
 void sendMqttMsg(String to_print, String topic, MqttClient& mqtt, bool debug){
@@ -69,6 +70,14 @@ void filterData(MeasurementData &incommingData, MeasurementData &filteredData){
 }
 
 
+// Define calibration parameters
+float A[3][3] = {
+    {1.157036, -0.003114, -0.001709},
+    {-0.003114, 1.254286, 0.058145},
+    {-0.001709, 0.058145, 1.275776}
+};
+float b[3] = {2.311279, 0.047097, -20.687891};
+
 
 MeasurementData update_measurements(){
   MeasurementData data;
@@ -105,6 +114,27 @@ MeasurementData update_measurements(){
   data.mag_y = data.mag_y;
   // data.mag_z = data.mag_z;
   data.mag_z = -data.mag_z;
+
+  data.mag_x *= 100;
+  data.mag_y *= 100;
+  data.mag_z *= 100;
+
+  float calibData[3];
+  float currMeas[3];
+  currMeas[0] = data.mag_x;
+  currMeas[1] = data.mag_y;
+  currMeas[2] = data.mag_z;
+  for (int j = 0; j < 3; j++) {
+    calibData[j] = 0;
+    for (int k = 0; k < 3; k++) {
+      calibData[j] += A[j][k] * (currMeas[k] - b[k]);
+    }
+  }
+  data.mag_x = calibData[0];
+  data.mag_y = calibData[1];
+  data.mag_z = calibData[2];
+
+
   MeasurementData temp;
   filterData(data, temp);
   data.gyroscope_x = temp.gyroscope_x;
@@ -183,24 +213,24 @@ void setup() {
   MAG.enableContinuousMode();
 
 
-	Serial.print("Connecting to WiFi");
-	WiFi.begin(WIFI_SSID, WIFI_PSWD);
-	while (WiFi.status() != WL_CONNECTED) {
-		delay(1000);
-		Serial.print(".");
-  	}
-
-	Serial.println("Connecting to MQTT host");
-	mqtt.setUsernamePassword(
-		MQTT_USER,
-		MQTT_PSWD
-	);
-	if (!mqtt.connect(MQTT_BROKER_IP, MQTT_BROKER_PORT)) {
-		Serial.print("MQTT connection failed! Error code = ");
-		Serial.println(mqtt.connectError());
-		while (1);
+  Serial.print("Connecting to WiFi");
+  WiFi.begin(WIFI_SSID, WIFI_PSWD);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(1000);
+    Serial.print(".");
   }
-	Serial.println("MQTT connected");
+
+  Serial.println("Connecting to MQTT host");
+  mqtt.setUsernamePassword(
+    MQTT_USER,
+    MQTT_PSWD
+  );
+  if (!mqtt.connect(MQTT_BROKER_IP, MQTT_BROKER_PORT)) {
+    Serial.print("MQTT connection failed! Error code = ");
+    Serial.println(mqtt.connectError());
+    while (1);
+  }
+  Serial.println("MQTT connected");
 
 
   MadgwickFilter.begin(100);
@@ -219,16 +249,16 @@ void loop() {
   currentTime = micros();
 	dt = currentTime - prevTime; 
   if (dt >= LoopTime) {
-    Serial.println(dt);
+    // Serial.println(dt);
     prevTime = currentTime;
 
     data = update_measurements();
-    MadgwickFilter.update(data.gyroscope_x, data.gyroscope_y, data.gyroscope_z, data.accelerometer_x, data.accelerometer_y, data.accelerometer_z, data.mag_x, data.mag_y, data.mag_z);
+    // MadgwickFilter.update(data.gyroscope_x, data.gyroscope_y, data.gyroscope_z, data.accelerometer_x, data.accelerometer_y, data.accelerometer_z, data.mag_x, data.mag_y, data.mag_z);
     // MadgwickFilter.updateIMU(data.gyroscope_x, data.gyroscope_y, data.gyroscope_z, data.accelerometer_x, data.accelerometer_y, data.accelerometer_z);
 
-    MadgwickResult.roll = MadgwickFilter.getRoll();
-    MadgwickResult.pitch = MadgwickFilter.getPitch();
-    MadgwickResult.yaw = MadgwickFilter.getYaw();
+    // MadgwickResult.roll = MadgwickFilter.getRoll();
+    // MadgwickResult.pitch = MadgwickFilter.getPitch();
+    // MadgwickResult.yaw = MadgwickFilter.getYaw();
 
     // MahonyFilter.update(data.gyroscope_x, data.gyroscope_y, data.gyroscope_z, data.accelerometer_x, data.accelerometer_y, data.accelerometer_z, data.mag_x, data.mag_y, data.mag_z);
 
@@ -238,9 +268,14 @@ void loop() {
 
     String data_to_print;
     data_to_print = String(MadgwickResult.roll)+';'+String(MadgwickResult.pitch)+';'+String(MadgwickResult.yaw);
-    sendMqttMsg(data_to_print, topic_dataMadgwick, mqtt, debug);
+    data_to_print = String(data.accelerometer_x)+';'+String(data.accelerometer_y)+';'+String(data.accelerometer_z)+';'+String(data.gyroscope_x)+';'+String(data.gyroscope_y)+';'+String(data.gyroscope_z)+';'+String(data.mag_x)+';'+String(data.mag_y)+';'+String(data.mag_z);
+    sendMqttMsg(data_to_print, topic_rawdata, mqtt, debug);
 
-    data_to_print = String(MahonyResult.roll)+';'+String(MahonyResult.pitch)+';'+String(MahonyResult.yaw);
+    // Serial.print(data.mag_x, 6); Serial.print(",");
+    // Serial.print(data.mag_y, 6); Serial.print(",");
+    // Serial.println(data.mag_z, 6);
+
+    // data_to_print = String(MahonyResult.roll)+';'+String(MahonyResult.pitch)+';'+String(MahonyResult.yaw);
     // sendMqttMsg(data_to_print, topic_dataMahony, mqtt, debug);
   }
 }
