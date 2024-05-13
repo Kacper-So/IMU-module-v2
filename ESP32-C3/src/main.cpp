@@ -109,40 +109,40 @@ MeasurementData update_measurements(){
   data.mag_y = data.mag_y * 8;
   data.mag_z = data.mag_z * 8;
 
-  data.mag_x = -data.mag_x;
-  // data.mag_x = data.mag_x;
+  // data.mag_x = -data.mag_x;
+  data.mag_x = data.mag_x;
   data.mag_y = data.mag_y;
-  // data.mag_z = data.mag_z;
-  data.mag_z = -data.mag_z;
+  data.mag_z = data.mag_z;
+  // data.mag_z = -data.mag_z;
 
   data.mag_x *= 100;
   data.mag_y *= 100;
   data.mag_z *= 100;
 
-  float calibData[3];
-  float currMeas[3];
-  currMeas[0] = data.mag_x;
-  currMeas[1] = data.mag_y;
-  currMeas[2] = data.mag_z;
-  for (int j = 0; j < 3; j++) {
-    calibData[j] = 0;
-    for (int k = 0; k < 3; k++) {
-      calibData[j] += A[j][k] * (currMeas[k] - b[k]);
-    }
-  }
-  data.mag_x = calibData[0];
-  data.mag_y = calibData[1];
-  data.mag_z = calibData[2];
+  // float calibData[3];
+  // float currMeas[3];
+  // currMeas[0] = data.mag_x;
+  // currMeas[1] = data.mag_y;
+  // currMeas[2] = data.mag_z;
+  // for (int j = 0; j < 3; j++) {
+  //   calibData[j] = 0;
+  //   for (int k = 0; k < 3; k++) {
+  //     calibData[j] += A[j][k] * (currMeas[k] - b[k]);
+  //   }
+  // }
+  // data.mag_x = calibData[0];
+  // data.mag_y = calibData[1];
+  // data.mag_z = calibData[2];
 
 
-  MeasurementData temp;
-  filterData(data, temp);
-  data.gyroscope_x = temp.gyroscope_x;
-  data.gyroscope_y = temp.gyroscope_y;
-  data.gyroscope_z = temp.gyroscope_z;
-  data.accelerometer_x = temp.accelerometer_x;
-  data.accelerometer_y = temp.accelerometer_y;
-  data.accelerometer_z = temp.accelerometer_z;
+  // MeasurementData temp;
+  // filterData(data, temp);
+  // data.gyroscope_x = temp.gyroscope_x;
+  // data.gyroscope_y = temp.gyroscope_y;
+  // data.gyroscope_z = temp.gyroscope_z;
+  // data.accelerometer_x = temp.accelerometer_x;
+  // data.accelerometer_y = temp.accelerometer_y;
+  // data.accelerometer_z = temp.accelerometer_z;
 
   // Serial.print(data.accelerometer_x);
   // Serial.print(", ");
@@ -267,7 +267,7 @@ void loop() {
     // MahonyResult.yaw = MahonyFilter.getYaw();
 
     String data_to_print;
-    data_to_print = String(MadgwickResult.roll)+';'+String(MadgwickResult.pitch)+';'+String(MadgwickResult.yaw);
+    // data_to_print = String(MadgwickResult.roll)+';'+String(MadgwickResult.pitch)+';'+String(MadgwickResult.yaw);
     data_to_print = String(data.accelerometer_x)+';'+String(data.accelerometer_y)+';'+String(data.accelerometer_z)+';'+String(data.gyroscope_x)+';'+String(data.gyroscope_y)+';'+String(data.gyroscope_z)+';'+String(data.mag_x)+';'+String(data.mag_y)+';'+String(data.mag_z);
     sendMqttMsg(data_to_print, topic_rawdata, mqtt, debug);
 
