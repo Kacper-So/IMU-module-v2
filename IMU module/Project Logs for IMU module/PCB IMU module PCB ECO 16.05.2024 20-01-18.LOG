@@ -1,0 +1,85 @@
+Added Component: Designator=AC1(ICM-40627)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "ICM-40627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/icm-40627/invensense?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://3cfeqx1hf82y3xcoull08ihx-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/DS-000381-ICM-40627-v1.2.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TDK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ICM-40627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "410-ICM-40627"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TDK-InvenSense/ICM-40627?qs=iLbezkQI%252BsgePVjJNSY7vQ%3D%3D"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found CAP_0402
+Add Component: Footprint Not Found CAP_0402
+Add Component: Footprint Not Found CAP_0402
+Added Pin To Net: NetName=GND Pin=AC1-1
+Added Pin To Net: NetName=NetAC1_4 Pin=AC1-4
+Added Pin To Net: NetName=3v3 Pin=AC1-5
+Added Pin To Net: NetName=GND Pin=AC1-6
+Added Pin To Net: NetName=3v3 Pin=AC1-8
+Added Pin To Net: NetName=NetAC1_9 Pin=AC1-9
+Added Pin To Net: NetName=3v3 Pin=AC1-12
+Added Pin To Net: NetName=I2C.SCK Pin=AC1-13
+Added Pin To Net: NetName=I2C.SDA Pin=AC1-14
+Add Pin To Net: Unknown Pin: Pin C15-1
+Add Pin To Net: Unknown Pin: Pin C15-2
+Add Pin To Net: Unknown Pin: Pin C16-1
+Add Pin To Net: Unknown Pin: Pin C16-2
+Add Pin To Net: Unknown Pin: Pin C17-1
+Add Pin To Net: Unknown Pin: Pin C17-2
+Added Member To Class: ClassName=Designator Member=Component 3v3
+Added Member To Class: ClassName=Designator Member=Component AC1 ICM-40627
+Added Member To Class: ClassName=Designator Member=Component BAT+
+Added Member To Class: ClassName=Designator Member=Component BAT-
+Added Member To Class: ClassName=Designator Member=Component C1 Ceramic_Capacitor
+Added Member To Class: ClassName=Designator Member=Component C7 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component C8 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component C13 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component C14 C0402_10V
+Add Class Member: Failed to add class member : Component C15 C0402_10V
+Add Class Member: Failed to add class member : Component C16 C0402_10V
+Add Class Member: Failed to add class member : Component C17 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component C18 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component C19 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component C20 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component C21 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component C22 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component C23 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component C25 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component C27 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component C32 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component C34 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component C35 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component C37 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component C42 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component C44 C0402_10V
+Added Member To Class: ClassName=Designator Member=Component D1 GREEN
+Added Member To Class: ClassName=Designator Member=Component D2 GREEN
+Added Member To Class: ClassName=Designator Member=Component FB1 FB0402
+Added Member To Class: ClassName=Designator Member=Component FB2 FB0402
+Added Member To Class: ClassName=Designator Member=Component GND
+Added Member To Class: ClassName=Designator Member=Component IC1 MIC5528-3.3YMT-T5
+Added Member To Class: ClassName=Designator Member=Component IC2 MAX16054AZT+T
+Added Member To Class: ClassName=Designator Member=Component IC3 MCP73831T-2ATI/MC
+Added Member To Class: ClassName=Designator Member=Component IC5 USBLC6-2P6
+Added Member To Class: ClassName=Designator Member=Component IC6 ESP32-C3-WROOM-02-N4
+Added Member To Class: ClassName=Designator Member=Component J1 TYPE-C-31-M-12
+Added Member To Class: ClassName=Designator Member=Component R1 Resistor
+Added Member To Class: ClassName=Designator Member=Component R2 R0402
+Added Member To Class: ClassName=Designator Member=Component R3 R0402
+Added Member To Class: ClassName=Designator Member=Component R4 R0402
+Added Member To Class: ClassName=Designator Member=Component R5 R0402
+Added Member To Class: ClassName=Designator Member=Component R6 R0402
+Added Member To Class: ClassName=Designator Member=Component R7 R0402
+Added Member To Class: ClassName=Designator Member=Component R8 R0402
+Added Member To Class: ClassName=Designator Member=Component R9 Resistor
+Added Member To Class: ClassName=Designator Member=Component R13 R0402
+Added Member To Class: ClassName=Designator Member=Component R14 R0402
+Added Member To Class: ClassName=Designator Member=Component RX
+Added Member To Class: ClassName=Designator Member=Component SW1 SKRPANE010
+Added Member To Class: ClassName=Designator Member=Component SW2 SKRPANE010
+Added Member To Class: ClassName=Designator Member=Component SW3 SKRPANE010
+Added Member To Class: ClassName=Designator Member=Component TX
+Added Member To Class: ClassName=Designator Member=Component U3 MMC5983MA
+Change Room Name: Old Name=Designator_5 New Name=Designator
+Change Room Name: Old Name=Designator_4 New Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator

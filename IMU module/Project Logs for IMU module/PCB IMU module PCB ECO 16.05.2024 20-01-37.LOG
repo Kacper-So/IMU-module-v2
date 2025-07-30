@@ -1,0 +1,52 @@
+Removed Member From Class: ClassName=Designator Member=AC1
+Removed Member From Class: ClassName=Designator Member=BAT+
+Removed Member From Class: ClassName=Designator Member=BAT-
+Removed Member From Class: ClassName=Designator Member=C1
+Removed Member From Class: ClassName=Designator Member=C18
+Removed Member From Class: ClassName=Designator Member=C19
+Removed Member From Class: ClassName=Designator Member=C20
+Removed Member From Class: ClassName=Designator Member=C21
+Removed Member From Class: ClassName=Designator Member=C22
+Removed Member From Class: ClassName=Designator Member=C23
+Removed Member From Class: ClassName=Designator Member=C25
+Removed Member From Class: ClassName=Designator Member=C27
+Removed Member From Class: ClassName=Designator Member=C32
+Removed Member From Class: ClassName=Designator Member=C34
+Removed Member From Class: ClassName=Designator Member=C35
+Removed Member From Class: ClassName=Designator Member=C37
+Removed Member From Class: ClassName=Designator Member=C42
+Removed Member From Class: ClassName=Designator Member=C44
+Removed Member From Class: ClassName=Designator Member=D1
+Removed Member From Class: ClassName=Designator Member=D2
+Removed Member From Class: ClassName=Designator Member=FB1
+Removed Member From Class: ClassName=Designator Member=FB2
+Removed Member From Class: ClassName=Designator Member=IC1
+Removed Member From Class: ClassName=Designator Member=IC2
+Removed Member From Class: ClassName=Designator Member=IC3
+Removed Member From Class: ClassName=Designator Member=J1
+Removed Member From Class: ClassName=Designator Member=R4
+Removed Member From Class: ClassName=Designator Member=R5
+Removed Member From Class: ClassName=Designator Member=R6
+Removed Member From Class: ClassName=Designator Member=R7
+Removed Member From Class: ClassName=Designator Member=R8
+Removed Member From Class: ClassName=Designator Member=SW3
+Removed Member From Class: ClassName=Designator Member=U3
+Add Component: Footprint Not Found CAP_0402
+Add Component: Footprint Not Found CAP_0402
+Add Component: Footprint Not Found CAP_0402
+Add Pin To Net: Unknown Pin: Pin C15-1
+Add Pin To Net: Unknown Pin: Pin C15-2
+Add Pin To Net: Unknown Pin: Pin C16-1
+Add Pin To Net: Unknown Pin: Pin C16-2
+Add Pin To Net: Unknown Pin: Pin C17-1
+Add Pin To Net: Unknown Pin: Pin C17-2
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator

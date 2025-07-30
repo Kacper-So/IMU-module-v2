@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MIC5528_3.3YMT_T5'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "MIC5528-3.3YMT-T5" (!) = "", "SON40P120X120X60-7N-D", "Small Outline No-lead", "998-MIC5528-3.3YMTT5", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MIC5528-3.3YMT-T5?qs=U6T8BxXiZAUrsVLummtswg%3D%3D", "LDO Voltage Regulators Single, 500mA LDO w/ Auto Discharge & Internal Enable Pulldown", "", "0.6 mm"
+END_PART
+
+END.

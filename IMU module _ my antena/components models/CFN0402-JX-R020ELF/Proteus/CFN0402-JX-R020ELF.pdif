@@ -1,0 +1,84 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "CFN0402-JX-R020ELF"
+   (description "CFN Series Metal Foil, Current Sense Resistor")
+   (family "RES")
+   (package "RESC1105X55N")
+   (attribute "Datasheet Link" "https://g.componentsearchengine.com/Datasheets/0/13902106.pdf")
+   (attribute "Geometry.Height" "0.55mm")
+   (attribute "Mouser Part Number" "652-CFN0402-JX-R020E")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CFN0402-JX-R020ELF?qs=iLbezkQI%252Bsi0LPdSp%252B%2FClA%3D%3D")
+   (attribute "Manufacturer_Name" "Bourns")
+   (attribute "Manufacturer_Part_Number" "CFN0402-JX-R020ELF")
+   (gate
+    (symbol "CFN0402-JX-R020ELF")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "CFN0402-JX-R020ELF"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RESC1105X55N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.225 0.55)
+      (pt 1.225 0.55)
+      (pt 1.225 -0.55)
+      (pt -1.225 -0.55)
+      (pt -1.225 0.55))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.55 0.25)
+      (pt 0.55 0.25)
+      (pt 0.55 -0.25)
+      (pt -0.55 -0.25)
+      (pt -0.55 0.25))))
+   (leg 1 (pt -0.55 0) (padstack 0))
+   (leg 2 (pt 0.55 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.6 0.85 0 0 0))
+   )
+   (model "CFN0402-JX-R020ELF.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LSF0204RUTR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Texas Instruments", "LSF0204RUTR" (!) = "", "RUT(R-PUQFN-N12)", "Other", "595-LSF0204RUTR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LSF0204RUTR?qs=m%2F7bTylgptfw1v7l22jn0g%3D%3D", "4-Bit Bidirectional Multi-Voltage Level Translator for Open-Drain & Push- Pull ", "http://www.ti.com/lit/gpn/lsf0204"
+END_PART
+
+END.

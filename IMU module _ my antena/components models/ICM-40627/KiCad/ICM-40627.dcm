@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ICM-40627
+D IMUs - Inertial Measurement Units Highly accurate MEMS based motion sensor with bundled Air Motion algorithm for pointing and motion control
+K
+F https://3cfeqx1hf82y3xcoull08ihx-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/DS-000381-ICM-40627-v1.2.pdf
+$ENDCMP
+#
+#End Doc Library

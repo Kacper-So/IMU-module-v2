@@ -1,0 +1,110 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\kacpe\Desktop\Studiaa\AiR\Magisterka\IMU module\PCB IMU module.PcbDoc
+Date     : 19.08.2023
+Time     : 22:17:31
+
+Processing Rule : Clearance Constraint (Gap=0.203mm) (InNet('ANT')),(All)
+   Violation between Clearance Constraint: (Collision < 0.203mm) Between Pad ANT1-1(80.3mm,89.2mm) on L1(Sig) And Pad ANT1-2(78.25mm,86.5mm) on L1(Sig) 
+Rule Violations :1
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) ((InNamedPolygon('Top_Layer-GND')) or (InNamedPolygon('Bottom_Layer-GND'))),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.125mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) ((InDifferentialPairClass('All Differential Pairs'))),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (AsMM(ViaDiameter) = 0.3),(AsMM(ViaDiameter) = 0.3)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) ((InNamedPolygon('Top_Layer-GND'))),((OnLayer('Mechanical 3')))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad ANT1-1(80.3mm,89.2mm) on L1(Sig) And Pad ANT1-2(78.25mm,86.5mm) on L1(Sig) Location : [X = 0mm][Y = 0mm]
+Rule Violations :1
+
+Processing Rule : Un-Routed Net Constraint ( (InNet('ANT')) )
+   Violation between Un-Routed Net Constraint: Net ANT Between Pad ANT1-1(90.85mm,89.2mm) on L1(Sig) And Pad ANT1-1(91.95mm,86.98mm) on L1(Sig) 
+Rule Violations :1
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.11mm) (Max=10.16mm) (Preferred=0.125mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.152mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.1mm) (Max=5mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.45mm) (InDrillLayerPair('Top Layer - Bottom Layer')),(InDrillLayerPair('Top Layer - Bottom Layer'))
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.275mm) (InDrillLayerPair('Mid-Layer 2 - Mid-Layer 3')),(InDrillLayerPair('Top Layer - Bottom Layer'))
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.275mm) (InDrillLayerPair('Mid-Layer 3 - Bottom Layer')),(InDrillLayerPair('Top Layer - Bottom Layer'))
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.225mm) (InDrillLayerPair('Top Layer - Mid-Layer 2')),(InDrillLayerPair('Mid-Layer 2 - Mid-Layer 3'))
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.225mm) (InDrillLayerPair('Mid-Layer 2 - Mid-Layer 3')),(InDrillLayerPair('Mid-Layer 2 - Mid-Layer 3'))
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.225mm) (InDrillLayerPair('Top Layer - Mid-Layer 2')),(InDrillLayerPair('Top Layer - Mid-Layer 2'))
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.225mm) (InDrillLayerPair('Top Layer - Mid-Layer 1')),(InDrillLayerPair('Top Layer - Mid-Layer 2'))
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.225mm) (InDrillLayerPair('Top Layer - Mid-Layer 1')),(InDrillLayerPair('Top Layer - Mid-Layer 1'))
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.275mm) (InDrillLayerPair('Top Layer - Mid-Layer 1')),(InDrillLayerPair('Top Layer - Bottom Layer'))
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.275mm) (InDrillLayerPair('Top Layer - Mid-Layer 2')),(InDrillLayerPair('Top Layer - Bottom Layer'))
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.225mm) (InDrillLayerPair('Mid-Layer 2 - Mid-Layer 3')),(InDrillLayerPair('Mid-Layer 3 - Bottom Layer'))
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.225mm) (InDrillLayerPair('Mid-Layer 3 - Bottom Layer')),(InDrillLayerPair('Mid-Layer 3 - Bottom Layer'))
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.097mm) (HasFootprint('ALL')),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (HasFootprint('All')),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (0.003mm < 0.254mm) Between Text "IC4" (86.6mm,67.575mm) on Top Overlay And Text "R11" (87.369mm,69.426mm) on Top Overlay Silk Text to Silk Clearance [0.003mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "R12" (84.816mm,73.233mm) on Top Overlay And Text "U1" (83.867mm,73.35mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+Rule Violations :2
+
+Processing Rule : Net Antennae (Tolerance=0mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=25.4mm) (InDifferentialPairClass('DIFF_USB'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Disabled)(All)
+Rule Violations :0
+
+
+Violations Detected : 5
+Waived Violations : 0
+Time Elapsed        : 00:00:01

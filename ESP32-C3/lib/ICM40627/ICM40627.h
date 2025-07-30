@@ -140,7 +140,7 @@ https://store.invensense.com/datasheets/invensense/DS-ICM-42605v1-2.pdf
 #define ICM40627_OFFSET_USER7              0x7E
 #define ICM40627_OFFSET_USER8              0x7F
 
-#define ICM40627_ADDRESS                   0x69   // Address of ICM40627 accel/gyro when ADO = HIGH
+#define ICM40627_ADDRESS                   0x68   // Address of ICM40627 accel/gyro when ADO = HIGH
 
 
 #define AFS_2G  0x03

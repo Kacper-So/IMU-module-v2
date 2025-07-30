@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LSF0204RUTR
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=12
+Version=3.2
+Released=2017-11-13 21:00:38
+Downloaded=2023-07-06 16:48:48
+3D=Y

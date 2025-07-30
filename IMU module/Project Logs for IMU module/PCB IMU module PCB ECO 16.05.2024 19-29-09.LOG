@@ -1,0 +1,34 @@
+Added Component: Designator=IC6(ESP32C3WROOM02N4)
+Add component (AddParameter): Name = "Part Name"; Value = "ESP32-C3-WROOM-02-N4"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3v3 Pin=IC6-1
+Added Pin To Net: NetName=NetC13_1 Pin=IC6-2
+Added Pin To Net: NetName=NetAC1_4 Pin=IC6-3
+Added Pin To Net: NetName=I2C.SDA Pin=IC6-4
+Added Pin To Net: NetName=I2C.SCK Pin=IC6-5
+Added Pin To Net: NetName=NetAC1_9 Pin=IC6-6
+Added Pin To Net: NetName=NetIC6_7 Pin=IC6-7
+Added Pin To Net: NetName=GPIO9 Pin=IC6-8
+Added Pin To Net: NetName=GND Pin=IC6-9
+Added Pin To Net: NetName=NetIC6_10 Pin=IC6-10
+Added Pin To Net: NetName=RX Pin=IC6-11
+Added Pin To Net: NetName=TX Pin=IC6-12
+Added Pin To Net: NetName=NetIC6_15 Pin=IC6-15
+Added Pin To Net: NetName=GND Pin=IC6-19
+Added Pin To Net: NetName=GND Pin=IC6-20
+Added Pin To Net: NetName=GND Pin=IC6-21
+Added Pin To Net: NetName=GND Pin=IC6-22
+Added Pin To Net: NetName=GND Pin=IC6-23
+Added Pin To Net: NetName=GND Pin=IC6-24
+Added Pin To Net: NetName=GND Pin=IC6-25
+Added Pin To Net: NetName=GND Pin=IC6-26
+Added Pin To Net: NetName=GND Pin=IC6-27
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Change Room Name: Old Name=Designator_5 New Name=Designator
+Change Room Name: Old Name=Designator_4 New Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator

@@ -1,0 +1,18 @@
+Change Component Designator: OldDesignator=IC? NewDesignator=IC6
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R9
+Add Component: Footprint Not Found 0402
+Change Net Name : Old Net Name=NetIC?_7 New Net Name=NetIC6_7
+Change Net Name : Old Net Name=NetIC?_10 New Net Name=NetIC6_10
+Change Net Name : Old Net Name=NetIC?_15 New Net Name=NetIC6_15
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Change Room Name: Old Name=Designator_5 New Name=Designator
+Change Room Name: Old Name=Designator_4 New Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Class: Name=DIFF_USB

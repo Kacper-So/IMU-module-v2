@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=TSB582IYQ2T
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=9
+Version=2.1
+Released=2022-09-18 06:26:18
+Downloaded=2023-07-06 13:59:52
+3D=Y

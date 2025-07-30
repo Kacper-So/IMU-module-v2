@@ -1,0 +1,96 @@
+PCBNEW-LibModule-V1  2023-07-06 16:48:48
+# encoding utf-8
+Units mm
+$INDEX
+RUT(R-PUQFN-N12)
+$EndINDEX
+$MODULE RUT(R-PUQFN-N12)
+Po 0 0 0 15 64a6e260 00000000 ~~
+Li RUT(R-PUQFN-N12)
+Cd RUT(R-PUQFN-N12)
+Kw Integrated Circuit
+Sc 0
+At SMD
+AR 
+Op 0 0 0
+T0 -0.29 -0.065 1.27 1.27 0 0.254 N V 21 N "IC**"
+T1 -0.29 -0.065 1.27 1.27 0 0.254 N I 21 N "RUT(R-PUQFN-N12)"
+DS -1 -0.85 1 -0.85 0.2 24
+DS 1 -0.85 1 0.85 0.2 24
+DS 1 0.85 -1 0.85 0.2 24
+DS -1 0.85 -1 -0.85 0.2 24
+DC -0.993 1.161 -1.05679 1.161 0.254 21
+$PAD
+Po -0.8 0.65
+Sh "1" R 0.2 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -0.4 0.65
+Sh "2" R 0.2 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0 0.65
+Sh "3" R 0.2 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.4 0.65
+Sh "4" R 0.2 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.8 0.65
+Sh "5" R 0.2 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.8 0
+Sh "6" R 0.2 0.6 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.8 -0.65
+Sh "7" R 0.2 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.4 -0.65
+Sh "8" R 0.2 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0 -0.65
+Sh "9" R 0.2 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -0.4 -0.65
+Sh "10" R 0.2 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -0.8 -0.65
+Sh "11" R 0.2 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -0.8 0
+Sh "12" R 0.2 0.6 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$EndMODULE RUT(R-PUQFN-N12)
+$EndLIBRARY

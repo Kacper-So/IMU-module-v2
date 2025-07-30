@@ -1,0 +1,108 @@
+Removed Pin From Net: NetName=GND Pin=ANT1-2
+Removed Pin From Net: NetName=GND Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=C2-1
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=GND Pin=C4-1
+Removed Pin From Net: NetName=3v3 Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=C5-2
+Removed Pin From Net: NetName=GND Pin=C6-1
+Removed Pin From Net: NetName=3v3 Pin=C6-2
+Removed Pin From Net: NetName=GND Pin=C9-1
+Removed Pin From Net: NetName=GND Pin=C10-1
+Removed Pin From Net: NetName=3v3 Pin=C10-2
+Removed Pin From Net: NetName=3v3 Pin=C11-1
+Removed Pin From Net: NetName=GND Pin=C11-2
+Removed Pin From Net: NetName=GND Pin=C12-1
+Removed Pin From Net: NetName=3v3 Pin=L2-1
+Removed Pin From Net: NetName=3v3 Pin=R9-1
+Removed Pin From Net: NetName=3v3 Pin=R10-1
+Removed Pin From Net: NetName=GND Pin=U1-4
+Removed Pin From Net: NetName=GND Pin=U1-9
+Removed Pin From Net: NetName=NetC13_1 Pin=U2-7
+Removed Pin From Net: NetName=NetAC1_4 Pin=U2-8
+Removed Pin From Net: NetName=I2C.SDA Pin=U2-9
+Removed Pin From Net: NetName=I2C.SCK Pin=U2-10
+Removed Pin From Net: NetName=3v3 Pin=U2-11
+Removed Pin From Net: NetName=NetAC1_9 Pin=U2-13
+Removed Pin From Net: NetName=GPIO9 Pin=U2-15
+Removed Pin From Net: NetName=3v3 Pin=U2-17
+Removed Pin From Net: NetName=USB.D_N Pin=U2-25
+Removed Pin From Net: NetName=USB.D_P Pin=U2-26
+Removed Pin From Net: NetName=3v3 Pin=U2-31
+Removed Pin From Net: NetName=3v3 Pin=U2-32
+Removed Pin From Net: NetName=GND Pin=U2-33
+Removed Pin From Net: NetName=GND Pin=X1-2
+Removed Pin From Net: NetName=GND Pin=X1-4
+Add Component: Footprint Not Found 0402
+Added Component: Designator=IC?(ESP32C3WROOM02N4)
+Add component (AddParameter): Name = "Part Name"; Value = "ESP32-C3-WROOM-02-N4"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES 0402/1005)
+Add component (AddParameter): Name = "Component Link"; Value = "https://www.tme.eu/pl/details/smd0402-10k/rez"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint."; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CRCW040210K0JNTDBC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Name"; Value = "CRCW040210K0JNTDBC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "63mW, 1/16W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "TME"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "CRCW040210K0JNTDBC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range"; Value = "-55 ~ 155C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES 0402/1005)
+Add component (AddParameter): Name = "Component Link"; Value = "https://www.tme.eu/pl/details/smd0402-10k/rez"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint."; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CRCW040210K0JNTDBC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Name"; Value = "CRCW040210K0JNTDBC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "63mW, 1/16W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "TME"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "CRCW040210K0JNTDBC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range"; Value = "-55 ~ 155C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3v3 Pin=IC?-1
+Added Pin To Net: NetName=NetC13_1 Pin=IC?-2
+Added Pin To Net: NetName=NetAC1_4 Pin=IC?-3
+Added Pin To Net: NetName=I2C.SDA Pin=IC?-4
+Added Pin To Net: NetName=I2C.SCK Pin=IC?-5
+Added Pin To Net: NetName=NetAC1_9 Pin=IC?-6
+Added Pin To Net: NetName=GPIO9 Pin=IC?-8
+Added Pin To Net: NetName=GND Pin=IC?-9
+Added Pin To Net: NetName=GND Pin=IC?-19
+Added Pin To Net: NetName=GND Pin=IC?-20
+Added Pin To Net: NetName=GND Pin=IC?-21
+Added Pin To Net: NetName=GND Pin=IC?-22
+Added Pin To Net: NetName=GND Pin=IC?-23
+Added Pin To Net: NetName=GND Pin=IC?-24
+Added Pin To Net: NetName=GND Pin=IC?-25
+Added Pin To Net: NetName=GND Pin=IC?-26
+Added Pin To Net: NetName=GND Pin=IC?-27
+Added Pin To Net: NetName=3v3 Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=NetIC?_7 Pin=IC?-7
+Added Pin To Net: NetName=NetIC?_7 Pin=R?-1
+Added Net: Name=NetIC?_7
+Added Pin To Net: NetName=NetIC?_10 Pin=IC?-10
+Added Pin To Net: NetName=NetIC?_10 Pin=R?-1
+Added Net: Name=NetIC?_10
+Added Pin To Net: NetName=NetIC?_15 Pin=IC?-15
+Added Pin To Net: NetName=NetIC?_15 Pin=U3-15
+Added Net: Name=NetIC?_15
+Added Pin To Net: NetName=RX Pin=IC5-1
+Added Pin To Net: NetName=RX Pin=IC?-11
+Added Net: Name=RX
+Added Pin To Net: NetName=TX Pin=IC5-3
+Added Pin To Net: NetName=TX Pin=IC?-12
+Added Net: Name=TX
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Class: Name=DIFF_USB

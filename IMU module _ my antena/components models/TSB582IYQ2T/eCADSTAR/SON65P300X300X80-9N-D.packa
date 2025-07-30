@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TSB582IYQ2T"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-09-18-06:26:18)
+    (mountForm default
+        (footprintRef "SON65P300X300X80-9N-D")
+        (spec "System")
+    )
+)

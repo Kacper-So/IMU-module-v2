@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ENS210-LQFM"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-05-17-10:32:45)
+    (mountForm default
+        (footprintRef "ENS210LQFM")
+        (spec "System")
+    )
+)

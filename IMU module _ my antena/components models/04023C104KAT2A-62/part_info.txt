@@ -1,0 +1,9 @@
+Manufacturer=KYOCERA
+PartNumber=04023C104KAT2A-62
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=1.1
+Released=2022-12-31 02:49:26
+Downloaded=2023-07-13 20:15:05
+3D=Y

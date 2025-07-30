@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ESP32_C3'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Espressif Systems", "ESP32-C3" (!) = "", "QFN50P500X500X90-33N-D", "Quad Flat No-Lead", "356-ESP32-C3", "https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-C3?qs=iLbezkQI%252BsiMXe7tMG%252Bo%2FA%3D%3D", "Ultra-Low-Power SoC with RISC-V Single-Core CPU", "https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf", "0.9 mm"
+END_PART
+
+END.

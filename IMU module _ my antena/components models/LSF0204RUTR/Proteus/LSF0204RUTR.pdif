@@ -1,0 +1,149 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LSF0204RUTR"
+   (description "4-Bit Bidirectional Multi-Voltage Level Translator for Open-Drain & Push- Pull ")
+   (family "ANA")
+   (package "RUT(R-PUQFN-N12)")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/gpn/lsf0204")
+   (attribute "Mouser Part Number" "595-LSF0204RUTR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LSF0204RUTR?qs=m%2F7bTylgptfw1v7l22jn0g%3D%3D")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "LSF0204RUTR")
+   (gate
+    (symbol "LSF0204RUTR")
+    (pin "VREF_A" 1 PS)
+    (pin "A1" 2 PS)
+    (pin "A2" 3 PS)
+    (pin "A3" 4 PS)
+    (pin "A4" 5 PS)
+    (pin "GND" 6 PS)
+    (pin "B4" 7 PS)
+    (pin "B3" 8 PS)
+    (pin "B2" 9 PS)
+    (pin "B1" 10 PS)
+    (pin "VREF_B" 11 PS)
+    (pin "EN" 12 PS)
+   )
+  )
+  (symbol "LSF0204RUTR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -600) (pt 200 -600) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RUT(R-PUQFN-N12)"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1 0.85)
+      (pt 1 0.85)
+      (pt 1 -0.85)
+      (pt -1 -0.85)
+      (pt -1 0.85))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt -1.05679 -1.161) (pt -0.92921 -1.161)
+     )
+    )
+   )
+   (leg 1 (pt -0.8 -0.65) (padstack 0))
+   (leg 2 (pt -0.4 -0.65) (padstack 0))
+   (leg 3 (pt 0 -0.65) (padstack 0))
+   (leg 4 (pt 0.4 -0.65) (padstack 0))
+   (leg 5 (pt 0.8 -0.65) (padstack 0))
+   (leg 6 (pt 0.8 0) (padstack 6))
+   (leg 7 (pt 0.8 0.65) (padstack 0))
+   (leg 8 (pt 0.4 0.65) (padstack 0))
+   (leg 9 (pt 0 0.65) (padstack 0))
+   (leg 10 (pt -0.4 0.65) (padstack 0))
+   (leg 11 (pt -0.8 0.65) (padstack 0))
+   (leg 12 (pt -0.8 0) (padstack 12))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.2 0.6 0 0 90))
+   )
+   (padstack 12
+    (plated false)
+    (pad (layer TCOP) (rectf 0.2 0.6 0 0 0))
+   )
+   (padstack 6
+    (plated false)
+    (pad (layer TCOP) (rectf 0.2 0.6 0 0 0))
+   )
+   (model "LSF0204RUTR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

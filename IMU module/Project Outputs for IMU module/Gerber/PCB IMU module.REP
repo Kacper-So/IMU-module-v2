@@ -2,6 +2,240 @@
 FileName = PCB IMU module.GBR
 AutoAperture = True
 *************************************************************
+Generating : Bottom Solder
+      File : PCB IMU module.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : L4(Sig)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D28
+    D32
+    D33
+    D35
+    D38
+    D39
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+*************************************************************
+
+*************************************************************
+Generating : L1(Sig)
+      File : PCB IMU module.GTL
+
+    Adding Layer      : L1(Sig)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D13
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+*************************************************************
+
+*************************************************************
+Generating : L2(GND)
+      File : PCB IMU module.GP1
+
+    Adding Layer      : L2(GND)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D49
+    D50
+    D51
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : PCB IMU module.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : L4(Sig)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D20
+    D21
+    D52
+    D53
+    D55
+    D56
+    D57
+    D58
+    D59
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : PCB IMU module.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D68
+    D69
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : PCB IMU module.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D68
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : PCB IMU module.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : PCB IMU module.GPT
+
+    Adding Layer      : L1(Sig)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D40
+    D41
+    D45
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : PCB IMU module.GPB
+
+    Adding Layer      : L4(Sig)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D20
+    D21
+    D40
+    D41
+    D45
+    D46
+    D47
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+*************************************************************
+
+*************************************************************
+Generating : L4(Sig)
+      File : PCB IMU module.GBL
+
+    Adding Layer      : L4(Sig)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D20
+    D21
+    D40
+    D41
+    D42
+    D43
+    D45
+    D46
+    D47
+    D48
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : PCB IMU module.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D12
+    D68
+*************************************************************
+
+*************************************************************
 Generating : Keep-Out Layer
       File : PCB IMU module.GKO
 
@@ -24,7 +258,13 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
     D32
     D33
     D34
@@ -33,29 +273,6 @@ Used DCodes :
     D37
     D38
     D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : PCB IMU module.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D10
-    D12
 *************************************************************
 
 *************************************************************
@@ -70,6 +287,7 @@ Generating : Top Paste
 
 
 Used DCodes :
+    D15
     D16
     D17
     D18
@@ -79,196 +297,6 @@ Used DCodes :
     D22
     D23
     D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-*************************************************************
-
-*************************************************************
-Generating : L4(Sig)
-      File : PCB IMU module.GBL
-
-    Adding Layer      : L4(Sig)
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D20
-    D23
-    D25
-    D53
-    D61
-    D63
-    D66
-    D67
-    D68
-    D69
-    D75
-    D76
-    D77
-    D78
-    D79
-    D80
-    D81
-*************************************************************
-
-*************************************************************
-Generating : Bottom Pad Master
-      File : PCB IMU module.GPB
-
-    Adding Layer      : L4(Sig)
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D20
-    D23
-    D25
-    D53
-    D66
-    D67
-    D68
-    D75
-    D76
-    D77
-    D78
-    D79
-    D80
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : PCB IMU module.GPT
-
-    Adding Layer      : L1(Sig)
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D28
-    D29
-    D30
-    D31
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-    D66
-    D67
-    D68
-*************************************************************
-
-*************************************************************
-Generating : L2(GND)
-      File : PCB IMU module.GP1
-
-    Adding Layer      : L2(GND)
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D70
-    D71
-    D72
-    D73
-    D74
-*************************************************************
-
-*************************************************************
-Generating : L1(Sig)
-      File : PCB IMU module.GTL
-
-    Adding Layer      : L1(Sig)
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D28
-    D29
-    D30
-    D31
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
-    D66
-    D67
-    D68
-    D69
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : PCB IMU module.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : L4(Sig)
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D35
-    D39
-    D40
-    D45
-    D48
-    D49
-    D50
-    D82
-    D83
-    D84
-    D85
-    D86
-    D87
 *************************************************************
 
 *************************************************************
@@ -284,7 +312,6 @@ Used DCodes :
     D12
     D13
     D14
-    D15
 *************************************************************
 
 *************************************************************
@@ -297,71 +324,8 @@ Generating : L3(GND)
 
 
 Used DCodes :
-    D70
-    D71
-    D72
-    D73
-    D74
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 1
-      File : PCB IMU module.GM1
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 13
-      File : PCB IMU module.GM13
-
-    Adding Layer      : Mechanical 13
-
-
-Used DCodes :
-    D10
-    D12
-    D13
-    D14
-    D15
-    D88
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 15
-      File : PCB IMU module.GM15
-
-    Adding Layer      : Mechanical 15
-
-
-Used DCodes :
-    D10
-    D89
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : PCB IMU module.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : L4(Sig)
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D20
-    D23
-    D25
-    D75
-    D76
-    D77
-    D78
-    D79
-    D80
+    D49
+    D50
+    D51
 *************************************************************
 

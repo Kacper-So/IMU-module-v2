@@ -1,0 +1,12 @@
+DRC Rules Export File for PCB: C:\Users\kacpe\Desktop\Studiaa\AiR\Magisterka\IMU module\PCB IMU module.PcbDoc
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=6.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=3.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_via|Scope=Board|Minimum=3.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=4.33
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=4.92
+RuleKind=Clearance|RuleName=Polygon_Clearance|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=ANT_Clerance|Scope=Board|Minimum=7.99
+RuleKind=Clearance|RuleName=USB_Clearance|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=USB_Poly_Clearance|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=MicroVia|Scope=Board|Minimum=3.94

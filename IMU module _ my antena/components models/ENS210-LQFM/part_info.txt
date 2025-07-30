@@ -1,0 +1,9 @@
+Manufacturer=ScioSense
+PartNumber=ENS210-LQFM
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=5
+Version=1.2
+Released=2021-05-17 10:32:45
+Downloaded=2023-07-06 14:01:09
+3D=Y

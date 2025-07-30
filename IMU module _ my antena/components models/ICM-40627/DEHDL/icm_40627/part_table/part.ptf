@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ICM_40627'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "TDK", "ICM-40627" (!) = "", "IIM42352", "Other", "410-ICM-40627", "https://www.mouser.co.uk/ProductDetail/TDK-InvenSense/ICM-40627?qs=iLbezkQI%252BsgePVjJNSY7vQ%3D%3D", "IMUs - Inertial Measurement Units Highly accurate MEMS based motion sensor with bundled Air Motion algorithm for pointing and motion control", "https://3cfeqx1hf82y3xcoull08ihx-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/DS-000381-ICM-40627-v1.2.pdf"
+END_PART
+
+END.

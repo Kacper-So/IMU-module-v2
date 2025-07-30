@@ -1,0 +1,16 @@
+.BLM15KD200SN1D :1 ;BLM15_N1D Series EMI Suppression Filter 20+/-25% at 100MHz 3.8A @85
+NFZ15SG152SN10B
+*STM FB
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN BLM15KD200SN1D
+~!Mouser Part Number (81-BLM15KD200SN1D)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM15KD200SN1D?qs=glnLrWX4TPrUDHGMZIcv%2FA%3D%3D)
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (BLM15KD200SN1D)
+~!Link Datasheet (http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb)
+~!Height (0.55mm)
+~!3D_Model (BLM15KD200SN1D)
+BLM15KD200SN1D
+1.1!U 2.1!U 

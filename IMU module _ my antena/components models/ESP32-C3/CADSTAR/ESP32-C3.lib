@@ -1,0 +1,16 @@
+.ESP32-C3 :1 ;Ultra-Low-Power SoC with RISC-V Single-Core CPU
+QFN50P500X500X90-33N-D
+*STM IC
+*NGS
+*PLB 1="LNA_IN" 2="VDD3P3_1" 3="VDD3P3_2" 4="XTAL_32K_P" 5="XTAL_32K_N" 6="GPIO2" 7="CHIP_EN" 8="GPIO3" 9="MTMS" 10="MTDI" 11="VDD3P3_RTC" 12="MTCK" 13="MTDO" 14="GPIO8" 15="GPIO9" 16="GPIO10" 17="VDD3P3_CPU" 18="VDD_SPI" 19="SPIHD" 20="SPIWP" 21="SPICS0" 22="SPICLK" 23="SPID" 24="SPIQ" 25="GPIO18" 26="GPIO19" 27="U0RXD" 28="U0TXD" 29="XTAL_N" 30="XTAL_P" 31="VDDA_1" 32="VDDA_2" 33="GND"
+*MXP 33
+*DFN ESP32-C3
+~!Mouser Part Number (356-ESP32-C3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-C3?qs=iLbezkQI%252BsiMXe7tMG%252Bo%2FA%3D%3D)
+~!Manufacturer_Name (Espressif Systems)
+~!Manufacturer_Part_Number (ESP32-C3)
+~!Link Datasheet (https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf)
+~!Height (0.9mm)
+~!3D_Model (ESP32-C3)
+ESP32-C3
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 33.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 

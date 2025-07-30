@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=GND Pin=IC4-2
+Removed Pin From Net: NetName=VDD Pin=IC4-5
+Add Component: Footprint Not Found 0402
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator

@@ -1,0 +1,28 @@
+Added Component: Designator=R10(RES 0402/1005)
+Add component (AddParameter): Name = "Component Link"; Value = "https://www.tme.eu/pl/details/smd0402-10k/rez"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint."; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CRCW040210K0JNTDBC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Name"; Value = "CRCW040210K0JNTDBC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "63mW, 1/16W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "TME"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "CRCW040210K0JNTDBC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range"; Value = "-55 ~ 155C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3v3 Pin=R10-2
+Added Pin To Net: NetName=NetIC6_16 Pin=IC6-16
+Added Pin To Net: NetName=NetIC6_16 Pin=R10-1
+Added Net: Name=NetIC6_16
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Member To Class: ClassName=Designator Member=Component R10 Resistor
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
